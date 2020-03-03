@@ -1,0 +1,44 @@
+server:
+  port: 8000
+
+spring:
+    datasource:
+        name: 192.168.1.11
+        url: jdbc:mysql://120.24.169.252:3306/device?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2b8
+        #url: jdbc:mysql://127.0.0.1:3306/device?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2b8
+        username: root
+        password: Ynbd2019_mysql
+        #password: qwe@123
+        #password: bzszwy2018!
+        # 使用druid数据源
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements:
+    servlet:
+      multipart:
+        # 上传文件总的最大值
+        max-request-size: 1000MB
+        # 单个文件的最大值
+        max-file-size: 200MB
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  config-location: classpath:mybatis.xml
+
+#模板上传路径
+uploadAdd: /home/community/upload/
+#人像上传路径
+facePicUpload: /usr/local/tomcat/apache-tomcat-9.0.8/webapps/ROOT/face/
+
+#facePicUpload: D:/phpStudy/ww/fice/

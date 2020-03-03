@@ -1,0 +1,134 @@
+<!--<!doctype html>-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>video5.0</title>
+<link href="css/video-js.min.css" rel="stylesheet" type="text/css">
+<script src="js/video.min.js"></script>
+</head>
+
+<body>
+<form id="addDataSourceForm" >
+    IP地址:<br>
+    <input type="text" name="ip" value="">
+    <br>
+    通道号:<br>
+    <input type="text" name="chanel" value="1">
+    <br>
+    账号:<br>
+    <input type="text" name="username" value="">
+    <br>
+    密码:<br>
+    <input type="text" name="password" value="">
+    <br>
+    <input type="button" value="播放" onclick="play()">
+    <br>
+    开始时间:<br>
+    <input type="text" name="starttime" value="20200302t000000z">
+    <br>
+    结束时间:<br>
+    <input type="text" name="endtime" value="20200302t235959z">
+    <br>
+    <input type="button" value="回放" onclick="historys()">
+    <br>
+    <input type="button" value="停止" onclick="stop()">
+</form>
+
+<video id="really-cool-video" class="video-js vjs-default-skin" controls
+ preload="auto" width="640" height="264" poster="http://video-js.zencoder.com/oceans-clip.png"
+ data-setup='{}'>
+    <source src="rtmp://127.0.0.1/live/test" type="rtmp/flv" >
+    <!--<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+   <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+   <source src="http://vjs.zencdn.net/v/oceans.ogv" type='video/ogg'>-->
+<!--  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser
+    that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>-->
+</video>
+
+
+</body>
+</html>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+    /*var myPlayer = videojs('really-cool-video');
+    videojs("really-cool-video").ready(function(){
+        var myPlayer = this;
+        myPlayer.play();
+    });*/
+    //播放
+    function play() {
+
+        var info= $('#addDataSourceForm').serializeArray();
+        $.ajax({
+            type: "POST",
+            url: "http://127.0.0.1:8000/zhuanma?type=1",      //本地服务器
+            //url: "http://172.11.3.60:8000/adminUserLogin",  //测试服务器
+            data: info,
+            dataType: "json",
+            success: function(data){
+                if(data.code==0){
+                   console.log("成功")
+                    var myPlayer = videojs('really-cool-video');
+                    videojs("really-cool-video").ready(function(){
+                        var myPlayer = this;
+                        myPlayer.play();
+                    });
+                }else{
+
+                }
+            }
+        });
+    }
+
+    //回放
+    function historys() {
+        var info= $('#addDataSourceForm').serializeArray();
+        $.ajax({
+            type: "POST",
+            url: "http://127.0.0.1:8000/zhuanma?type=2",      //本地服务器
+            //url: "http://172.11.3.60:8000/adminUserLogin",  //测试服务器
+            data: info,
+            dataType: "json",
+            success: function(data){
+                if(data.code==0){
+                    console.log("成功")
+                    var myPlayer = videojs('really-cool-video');
+                    videojs("really-cool-video").ready(function(){
+                        var myPlayer = this;
+                        myPlayer.play();
+                    });
+                }else{
+
+                }
+            }
+        });
+    }
+
+
+    //停止
+    function stop() {
+        var info= $('#addDataSourceForm').serializeArray();
+        $.ajax({
+            type: "POST",
+            url: "http://127.0.0.1:8000/guanbi",      //本地服务器
+            //url: "http://172.11.3.60:8000/adminUserLogin",  //测试服务器
+            data: info,
+            dataType: "json",
+            success: function(data){
+                if(data.code==0){
+                    console.log("成功")
+                    var myPlayer = videojs('really-cool-video');
+                    videojs("really-cool-video").ready(function(){
+                        var myPlayer = this;
+                        myPlayer.play();
+                    });
+                }else{
+
+                }
+            }
+        });
+        console.log(info)
+    }
+</script>

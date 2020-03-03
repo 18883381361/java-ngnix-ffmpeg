@@ -1,0 +1,1159 @@
+2020/03/02 11:32:30 [notice] 4748#3564: using the "select" event method
+2020/03/02 11:32:30 [notice] 4748#3564: nginx/1.14.1
+2020/03/02 11:32:30 [info] 4748#3564: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 11:32:30 [notice] 4748#3564: start worker processes
+2020/03/02 11:32:30 [notice] 4748#3564: start worker process 4888
+2020/03/02 11:32:30 [notice] 4888#5076: nginx/1.14.1
+2020/03/02 11:32:30 [info] 4888#5076: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 11:32:30 [notice] 4888#5076: create thread 11956
+2020/03/02 11:32:30 [notice] 4888#5076: create thread 8772
+2020/03/02 11:32:30 [notice] 4888#5076: create thread 5396
+2020/03/02 11:32:36 [error] 4888#11956: *4 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/02 11:32:36 [error] 4888#11956: *3 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/02 11:32:36 [info] 4888#11956: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 11:32:36 [info] 4888#11956: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 11:32:37 [error] 4888#11956: *5 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 11:35:01 [info] 4888#11956: *6 client connected '127.0.0.1'
+2020/03/02 11:35:01 [info] 4888#11956: *6 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:01 [info] 4888#11956: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:01 [info] 4888#11956: *6 publish: name='test2' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:12 [info] 4888#11956: *7 client connected '127.0.0.1'
+2020/03/02 11:35:12 [info] 4888#11956: *7 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:12 [info] 4888#11956: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:12 [info] 4888#11956: *7 play: name='stream' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:22 [info] 4888#11956: *8 client connected '127.0.0.1'
+2020/03/02 11:35:22 [info] 4888#11956: *8 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:22 [info] 4888#11956: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:22 [info] 4888#11956: *8 publish: name='stream' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:35:22 [error] 4888#11956: *8 codec: error parsing data frame, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:06 [info] 4888#11956: *7 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:06 [info] 4888#11956: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:06 [info] 4888#11956: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:10 [info] 4888#11956: *9 client connected '127.0.0.1'
+2020/03/02 11:36:10 [info] 4888#11956: *9 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:10 [info] 4888#11956: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:10 [info] 4888#11956: *9 play: name='test2' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:22 [info] 4888#11956: *8 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:22 [info] 4888#11956: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:22 [info] 4888#11956: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:27 [info] 4888#11956: *10 client connected '127.0.0.1'
+2020/03/02 11:36:27 [info] 4888#11956: *10 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:27 [info] 4888#11956: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:27 [info] 4888#11956: *10 publish: name='test2' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:27 [error] 4888#11956: *10 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:27 [error] 4888#11956: *10 codec: error parsing data frame, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:36:27 [info] 4888#11956: *10 closeStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:06 [error] 4888#11956: *11 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 11:37:21 [info] 4888#11956: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:21 [info] 4888#11956: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:21 [info] 4888#11956: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:21 [info] 4888#11956: *9 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:21 [info] 4888#11956: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:21 [info] 4888#11956: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:30 [error] 4888#11956: *11 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 11:37:32 [info] 4888#11956: *12 client connected '127.0.0.1'
+2020/03/02 11:37:32 [info] 4888#11956: *12 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/GrindPlayer.swf' tc_url='rtmp://127.0.0.1:1935/live' page_url='http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest2' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:32 [info] 4888#11956: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:32 [info] 4888#11956: *12 play: name='test2' args='' start=-2000 duration=-1000 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:37:59 [error] 4888#11956: *11 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 11:38:16 [info] 4888#11956: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:38:16 [info] 4888#11956: *6 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:38:16 [info] 4888#11956: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:38:16 [info] 4888#11956: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:38:59 [info] 4888#11956: *11 client 127.0.0.1 closed keepalive connection
+2020/03/02 11:40:57 [notice] 10528#8848: signal process started
+2020/03/02 11:40:57 [notice] 4748#3564: exiting
+2020/03/02 11:40:57 [notice] 4888#5076: gracefully shutting down
+2020/03/02 11:40:57 [notice] 4888#8772: exiting
+2020/03/02 11:41:02 [notice] 4748#3564: exit
+2020/03/02 11:47:34 [notice] 11680#3424: using the "select" event method
+2020/03/02 11:47:34 [notice] 11680#3424: nginx/1.14.1
+2020/03/02 11:47:34 [info] 11680#3424: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 11:47:34 [notice] 11680#3424: start worker processes
+2020/03/02 11:47:34 [notice] 11680#3424: start worker process 13964
+2020/03/02 11:47:34 [notice] 13964#10380: nginx/1.14.1
+2020/03/02 11:47:34 [info] 13964#10380: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 11:47:34 [notice] 13964#10380: create thread 13812
+2020/03/02 11:47:34 [notice] 13964#10380: create thread 5220
+2020/03/02 11:47:34 [notice] 13964#10380: create thread 5368
+2020/03/02 11:47:35 [info] 13964#13812: *1 client connected '127.0.0.1'
+2020/03/02 11:47:35 [info] 13964#13812: *1 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/GrindPlayer.swf' tc_url='rtmp://127.0.0.1:1935/live' page_url='http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Fdemo' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:47:35 [info] 13964#13812: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:47:50 [info] 13964#13812: *2 client connected '127.0.0.1'
+2020/03/02 11:47:50 [info] 13964#13812: *2 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:47:50 [info] 13964#13812: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:47:50 [info] 13964#13812: *2 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:47:55 [info] 13964#13812: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:47:55 [info] 13964#13812: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:47:55 [info] 13964#13812: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:47:55 [error] 13964#13812: *3 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/02 11:47:55 [error] 13964#13812: *3 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/02 11:48:16 [info] 13964#13812: *5 client connected '127.0.0.1'
+2020/03/02 11:48:16 [info] 13964#13812: *5 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:48:16 [info] 13964#13812: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:48:16 [info] 13964#13812: *5 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:56:48 [info] 13964#13812: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:56:48 [info] 13964#13812: *2 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:56:48 [info] 13964#13812: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 11:56:48 [info] 13964#13812: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:14 [info] 13964#13812: *6 client connected '127.0.0.1'
+2020/03/02 13:51:14 [info] 13964#13812: *6 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:14 [info] 13964#13812: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:14 [info] 13964#13812: *6 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:21 [info] 13964#13812: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:21 [info] 13964#13812: *6 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:21 [info] 13964#13812: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:21 [info] 13964#13812: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:26 [info] 13964#13812: *5 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:26 [info] 13964#13812: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:26 [info] 13964#13812: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:26 [error] 13964#13812: *7 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/02 13:51:26 [error] 13964#13812: *7 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/02 13:51:26 [error] 13964#13812: *7 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 13:51:26 [info] 13964#13812: *7 client 127.0.0.1 closed keepalive connection
+2020/03/02 13:51:26 [info] 13964#13812: *8 WSASend() failed (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 127.0.0.1, server: , request: "GET /Main.swf HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/02 13:51:33 [info] 13964#13812: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 13:51:37 [info] 13964#13812: *10 client connected '127.0.0.1'
+2020/03/02 13:51:37 [info] 13964#13812: *10 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:37 [info] 13964#13812: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 13:51:37 [info] 13964#13812: *10 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:22 [info] 13964#13812: *11 client connected '127.0.0.1'
+2020/03/02 14:18:22 [info] 13964#13812: *11 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:22 [info] 13964#13812: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:22 [info] 13964#13812: *11 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:33 [info] 13964#13812: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:33 [info] 13964#13812: *11 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:33 [info] 13964#13812: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:33 [info] 13964#13812: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:59 [info] 13964#13812: *12 client connected '127.0.0.1'
+2020/03/02 14:18:59 [info] 13964#13812: *12 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:59 [info] 13964#13812: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:18:59 [info] 13964#13812: *12 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:19:07 [info] 13964#13812: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:19:07 [info] 13964#13812: *12 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:19:07 [info] 13964#13812: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:19:07 [info] 13964#13812: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:34:24 [error] 13964#13812: *13 CreateFile() "F:\nginx-rtmp-win32-dev/html/record_done" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /record_done HTTP/1.1", host: "localhost"
+2020/03/02 14:34:24 [error] 13964#13812: *13 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2020/03/02 14:34:24 [info] 13964#13812: *13 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/02 14:44:50 [info] 13964#13812: *14 client connected '127.0.0.1'
+2020/03/02 14:44:50 [info] 13964#13812: *14 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:44:50 [info] 13964#13812: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:44:50 [info] 13964#13812: *14 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:44:57 [info] 13964#13812: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:44:57 [info] 13964#13812: *14 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:44:57 [info] 13964#13812: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:44:57 [info] 13964#13812: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:22 [info] 13964#13812: *15 client connected '127.0.0.1'
+2020/03/02 14:51:22 [info] 13964#13812: *15 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:22 [info] 13964#13812: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:22 [info] 13964#13812: *15 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:52 [info] 13964#13812: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:52 [info] 13964#13812: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:52 [info] 13964#13812: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:54 [info] 13964#13812: *16 client connected '127.0.0.1'
+2020/03/02 14:51:54 [info] 13964#13812: *16 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:54 [info] 13964#13812: *16 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:51:54 [info] 13964#13812: *16 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:52:48 [info] 13964#13812: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:52:48 [info] 13964#13812: *15 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:52:48 [info] 13964#13812: *15 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:52:48 [info] 13964#13812: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:22 [info] 13964#13812: *16 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:22 [info] 13964#13812: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:22 [info] 13964#13812: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:25 [info] 13964#13812: *17 client connected '127.0.0.1'
+2020/03/02 14:53:25 [info] 13964#13812: *17 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:25 [info] 13964#13812: *17 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:26 [info] 13964#13812: *17 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:32 [info] 13964#13812: *17 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:32 [info] 13964#13812: *17 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:53:32 [info] 13964#13812: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:02 [info] 13964#13812: *18 client connected '127.0.0.1'
+2020/03/02 14:54:02 [info] 13964#13812: *18 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:02 [info] 13964#13812: *18 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:02 [info] 13964#13812: *18 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:05 [info] 13964#13812: *19 client connected '127.0.0.1'
+2020/03/02 14:54:05 [info] 13964#13812: *19 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:05 [info] 13964#13812: *19 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:05 [info] 13964#13812: *19 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:24 [info] 13964#13812: *18 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:24 [info] 13964#13812: *18 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:24 [info] 13964#13812: *18 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:54:24 [info] 13964#13812: *18 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:59:16 [info] 13964#13812: *20 client connected '127.0.0.1'
+2020/03/02 14:59:16 [info] 13964#13812: *20 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:59:16 [info] 13964#13812: *20 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 14:59:16 [info] 13964#13812: *20 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:00:52 [info] 13964#13812: *19 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:00:52 [info] 13964#13812: *19 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:00:52 [info] 13964#13812: *19 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:00:54 [info] 13964#13812: *21 client connected '127.0.0.1'
+2020/03/02 15:00:54 [info] 13964#13812: *21 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:00:54 [info] 13964#13812: *21 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:00:54 [info] 13964#13812: *21 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:01:09 [info] 13964#13812: *20 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:01:09 [info] 13964#13812: *20 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:01:09 [info] 13964#13812: *20 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:01:09 [info] 13964#13812: *20 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:02:27 [info] 13964#13812: *21 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:02:27 [info] 13964#13812: *21 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:02:27 [info] 13964#13812: *21 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:02:29 [info] 13964#13812: *22 WSASend() failed (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 127.0.0.1, server: , request: "GET /flashlsOSMF.swf HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/GrindPlayer.swf"
+2020/03/02 15:02:34 [info] 13964#13812: *23 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:02:45 [info] 13964#13812: *24 client connected '127.0.0.1'
+2020/03/02 15:02:45 [info] 13964#13812: *24 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:02:45 [info] 13964#13812: *24 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:02:45 [info] 13964#13812: *24 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:02:59 [info] 13964#13812: *25 WSASend() failed (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 127.0.0.1, server: , request: "GET /flashlsOSMF.swf HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/GrindPlayer.swf"
+2020/03/02 15:02:59 [info] 13964#13812: *27 client connected '127.0.0.1'
+2020/03/02 15:02:59 [info] 13964#13812: *27 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/GrindPlayer.swf' tc_url='rtmp://127.0.0.1:1935/live' page_url='http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:00 [info] 13964#13812: *27 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:00 [info] 13964#13812: *27 play: name='test' args='' start=-2000 duration=-1000 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:04 [info] 13964#13812: *26 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:03:27 [info] 13964#13812: *27 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:27 [info] 13964#13812: *27 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:27 [info] 13964#13812: *27 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:30 [info] 13964#13812: *28 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2020/03/02 15:03:35 [info] 13964#13812: *29 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:03:52 [info] 13964#13812: *30 WSASend() failed (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 127.0.0.1, server: , request: "GET /flashlsOSMF.swf HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/GrindPlayer.swf"
+2020/03/02 15:03:52 [info] 13964#13812: *32 client connected '127.0.0.1'
+2020/03/02 15:03:52 [info] 13964#13812: *32 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/GrindPlayer.swf' tc_url='rtmp://127.0.0.1:1935/live' page_url='http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:52 [info] 13964#13812: *32 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:52 [info] 13964#13812: *32 play: name='test' args='' start=-2000 duration=-1000 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:03:57 [info] 13964#13812: *31 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:04:46 [info] 13964#13812: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:04:46 [info] 13964#13812: *24 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:04:46 [info] 13964#13812: *24 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:04:46 [info] 13964#13812: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:39 [info] 13964#13812: *33 client connected '127.0.0.1'
+2020/03/02 15:06:39 [info] 13964#13812: *33 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:39 [info] 13964#13812: *33 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:39 [info] 13964#13812: *33 publish: name='test1' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:39 [info] 13964#13812: *32 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:39 [info] 13964#13812: *32 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:39 [info] 13964#13812: *32 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:42 [info] 13964#13812: *34 WSASend() failed (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 127.0.0.1, server: , request: "GET /flashlsOSMF.swf HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/GrindPlayer.swf"
+2020/03/02 15:06:42 [info] 13964#13812: *36 client connected '127.0.0.1'
+2020/03/02 15:06:42 [info] 13964#13812: *36 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/GrindPlayer.swf' tc_url='rtmp://127.0.0.1:1935/live' page_url='http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest1' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:42 [info] 13964#13812: *36 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:42 [info] 13964#13812: *36 play: name='test1' args='' start=-2000 duration=-1000 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:06:47 [info] 13964#13812: *35 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:07:04 [info] 13964#13812: *33 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:07:04 [info] 13964#13812: *33 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:07:04 [info] 13964#13812: *33 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:07:04 [info] 13964#13812: *33 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:10:59 [notice] 15476#5212: signal process started
+2020/03/02 15:10:59 [notice] 11680#3424: exiting
+2020/03/02 15:10:59 [notice] 13964#10380: gracefully shutting down
+2020/03/02 15:10:59 [notice] 13964#5220: exiting
+2020/03/02 15:11:03 [notice] 15484#15500: using the "select" event method
+2020/03/02 15:11:03 [notice] 15484#15500: nginx/1.14.1
+2020/03/02 15:11:03 [info] 15484#15500: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:11:03 [notice] 15484#15500: start worker processes
+2020/03/02 15:11:03 [notice] 15484#15500: start worker process 3988
+2020/03/02 15:11:03 [notice] 3988#4712: nginx/1.14.1
+2020/03/02 15:11:03 [info] 3988#4712: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:11:03 [notice] 3988#4712: create thread 2800
+2020/03/02 15:11:03 [notice] 3988#4712: create thread 2332
+2020/03/02 15:11:03 [notice] 3988#4712: create thread 13416
+2020/03/02 15:11:04 [notice] 11680#3424: exit
+2020/03/02 15:11:06 [info] 3988#2800: *1 client connected '127.0.0.1'
+2020/03/02 15:11:06 [info] 3988#2800: *1 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/GrindPlayer.swf' tc_url='rtmp://127.0.0.1:1935/live' page_url='http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest1' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:11:06 [info] 3988#2800: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:11:28 [info] 3988#2800: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:11:34 [info] 3988#2800: *3 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/02 15:11:34 [info] 3988#2800: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:12:43 [info] 3988#2800: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:43 [info] 3988#2800: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:43 [info] 3988#2800: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:47 [info] 3988#2800: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:12:50 [info] 3988#2800: *8 client connected '127.0.0.1'
+2020/03/02 15:12:50 [info] 3988#2800: *8 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/GrindPlayer.swf' tc_url='rtmp://127.0.0.1:1935/live' page_url='http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest1' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:50 [info] 3988#2800: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:50 [info] 3988#2800: *8 play: name='test1' args='' start=-2000 duration=-1000 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:52 [info] 3988#2800: *8 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:52 [info] 3988#2800: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:52 [info] 3988#2800: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:12:53 [info] 3988#2800: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:12:53 [info] 3988#2800: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:13:22 [info] 3988#2800: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:14:05 [info] 3988#2800: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:14:26 [notice] 15260#11884: signal process started
+2020/03/02 15:14:26 [error] 15260#11884: CreateFile() "F:\nginx-rtmp-win32-dev/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/03/02 15:14:28 [notice] 13920#4744: using the "select" event method
+2020/03/02 15:14:28 [notice] 13920#4744: nginx/1.14.1
+2020/03/02 15:14:28 [info] 13920#4744: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:14:28 [notice] 13920#4744: start worker processes
+2020/03/02 15:14:28 [notice] 13920#4744: start worker process 16080
+2020/03/02 15:14:28 [notice] 16080#15820: nginx/1.14.1
+2020/03/02 15:14:28 [info] 16080#15820: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:14:28 [notice] 16080#15820: create thread 1972
+2020/03/02 15:14:28 [notice] 16080#15820: create thread 11880
+2020/03/02 15:14:28 [notice] 16080#15820: create thread 15728
+2020/03/02 15:14:41 [error] 3988#2800: *12 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2020/03/02 15:14:41 [error] 3988#2800: *13 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2020/03/02 15:14:42 [error] 3988#2800: *12 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 15:14:58 [info] 3988#2800: *14 client connected '127.0.0.1'
+2020/03/02 15:14:58 [info] 3988#2800: *14 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:14:58 [info] 3988#2800: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:14:58 [info] 3988#2800: *14 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:15:44 [notice] 11448#8468: signal process started
+2020/03/02 15:15:44 [notice] 13920#4744: exiting
+2020/03/02 15:15:44 [notice] 16080#15820: gracefully shutting down
+2020/03/02 15:15:44 [notice] 16080#11880: exiting
+2020/03/02 15:15:45 [notice] 16080#1972: exiting
+2020/03/02 15:15:45 [notice] 16080#15820: exit
+2020/03/02 15:15:45 [notice] 13920#4744: worker process 16080 exited with code 0
+2020/03/02 15:15:45 [notice] 13920#4744: exit
+2020/03/02 15:16:01 [notice] 15484#15500: worker process 3988 exited with code 1
+2020/03/02 15:16:01 [notice] 15484#15500: start worker process 3316
+2020/03/02 15:16:01 [notice] 3316#16112: nginx/1.14.1
+2020/03/02 15:16:01 [info] 3316#16112: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:16:01 [notice] 3316#16112: create thread 9032
+2020/03/02 15:16:01 [notice] 3316#16112: create thread 15420
+2020/03/02 15:16:01 [notice] 3316#16112: create thread 16292
+2020/03/02 15:16:14 [notice] 844#16216: using the "select" event method
+2020/03/02 15:16:14 [notice] 844#16216: nginx/1.14.1
+2020/03/02 15:16:14 [info] 844#16216: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:16:14 [notice] 844#16216: start worker processes
+2020/03/02 15:16:14 [notice] 844#16216: start worker process 16196
+2020/03/02 15:16:15 [notice] 16196#16348: nginx/1.14.1
+2020/03/02 15:16:15 [info] 16196#16348: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:16:15 [notice] 16196#16348: create thread 16032
+2020/03/02 15:16:15 [notice] 16196#16348: create thread 16328
+2020/03/02 15:16:15 [notice] 16196#16348: create thread 1340
+2020/03/02 15:16:47 [info] 16196#16032: *1 client connected '127.0.0.1'
+2020/03/02 15:16:47 [info] 16196#16032: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:16:47 [info] 16196#16032: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:16:47 [info] 16196#16032: *1 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:16:58 [error] 16196#16032: *2 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2020/03/02 15:16:58 [error] 16196#16032: *3 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2020/03/02 15:16:58 [error] 16196#16032: *2 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 15:16:58 [info] 16196#16032: *2 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/02 15:17:04 [info] 16196#16032: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:17:07 [info] 16196#16032: *5 client connected '127.0.0.1'
+2020/03/02 15:17:07 [info] 16196#16032: *5 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:17:07 [info] 16196#16032: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:17:07 [info] 16196#16032: *5 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:17:16 [info] 16196#16032: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:17:16 [info] 16196#16032: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:17:16 [info] 16196#16032: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:17:16 [info] 16196#16032: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:17:37 [notice] 3264#4680: signal process started
+2020/03/02 15:17:37 [notice] 844#16216: exiting
+2020/03/02 15:17:37 [notice] 16196#16348: gracefully shutting down
+2020/03/02 15:17:37 [notice] 16196#16328: exiting
+2020/03/02 15:17:42 [notice] 844#16216: exit
+2020/03/02 15:17:48 [notice] 15816#16368: using the "select" event method
+2020/03/02 15:17:48 [notice] 15816#16368: nginx/1.14.1
+2020/03/02 15:17:48 [info] 15816#16368: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:17:48 [notice] 15816#16368: start worker processes
+2020/03/02 15:17:48 [notice] 15816#16368: start worker process 15424
+2020/03/02 15:17:48 [notice] 15424#8564: nginx/1.14.1
+2020/03/02 15:17:48 [info] 15424#8564: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:17:48 [notice] 15424#8564: create thread 14876
+2020/03/02 15:17:48 [notice] 15424#8564: create thread 4644
+2020/03/02 15:17:48 [notice] 15424#8564: create thread 4772
+2020/03/02 15:18:25 [info] 15424#14876: *1 client connected '127.0.0.1'
+2020/03/02 15:18:25 [info] 15424#14876: *1 connect: app='vod' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/vod' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:18:25 [info] 15424#14876: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:18:25 [info] 15424#14876: *1 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:16 [info] 15424#14876: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:16 [info] 15424#14876: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:32 [info] 15424#14876: *2 client connected '127.0.0.1'
+2020/03/02 15:19:32 [info] 15424#14876: *2 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:32 [info] 15424#14876: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:32 [info] 15424#14876: *2 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:40 [info] 15424#14876: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:40 [info] 15424#14876: *2 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:40 [info] 15424#14876: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:40 [info] 15424#14876: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:42 [info] 15424#14876: *3 client connected '127.0.0.1'
+2020/03/02 15:19:42 [info] 15424#14876: *3 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:42 [info] 15424#14876: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:19:42 [info] 15424#14876: *3 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:20:36 [info] 15424#14876: *4 client connected '127.0.0.1'
+2020/03/02 15:20:36 [info] 15424#14876: *4 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:20:36 [info] 15424#14876: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:20:36 [info] 15424#14876: *4 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:21 [info] 15424#14876: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:21 [info] 15424#14876: *4 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:21 [info] 15424#14876: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:21 [info] 15424#14876: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:43 [info] 15424#14876: *5 client connected '127.0.0.1'
+2020/03/02 15:21:43 [info] 15424#14876: *5 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:43 [info] 15424#14876: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:43 [info] 15424#14876: *5 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:55 [info] 15424#14876: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:55 [info] 15424#14876: *5 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:55 [info] 15424#14876: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:21:55 [info] 15424#14876: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:22:29 [info] 15424#14876: *6 client connected '127.0.0.1'
+2020/03/02 15:22:29 [info] 15424#14876: *6 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:22:29 [info] 15424#14876: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:22:29 [info] 15424#14876: *6 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:22:53 [info] 15424#14876: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:22:53 [info] 15424#14876: *6 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:22:53 [info] 15424#14876: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:22:53 [info] 15424#14876: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:30 [info] 15424#14876: *7 client connected '127.0.0.1'
+2020/03/02 15:23:30 [info] 15424#14876: *7 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:30 [info] 15424#14876: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:30 [info] 15424#14876: *7 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:33 [info] 15424#14876: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:33 [info] 15424#14876: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:33 [info] 15424#14876: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:34 [info] 15424#14876: *8 client connected '127.0.0.1'
+2020/03/02 15:23:34 [info] 15424#14876: *8 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:34 [info] 15424#14876: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:34 [info] 15424#14876: *8 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:37 [info] 15424#14876: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:37 [info] 15424#14876: *7 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:37 [info] 15424#14876: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:37 [info] 15424#14876: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:57 [info] 15424#14876: *9 client connected '127.0.0.1'
+2020/03/02 15:23:57 [info] 15424#14876: *9 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:57 [info] 15424#14876: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:23:57 [info] 15424#14876: *9 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:00 [info] 15424#14876: *8 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:00 [info] 15424#14876: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:00 [info] 15424#14876: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:01 [info] 15424#14876: *10 client connected '127.0.0.1'
+2020/03/02 15:24:01 [info] 15424#14876: *10 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:01 [info] 15424#14876: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:01 [info] 15424#14876: *10 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:07 [info] 15424#14876: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:07 [info] 15424#14876: *9 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:07 [info] 15424#14876: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:07 [info] 15424#14876: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:17 [info] 15424#14876: *11 client connected '127.0.0.1'
+2020/03/02 15:24:17 [info] 15424#14876: *11 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:17 [info] 15424#14876: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:17 [info] 15424#14876: *11 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:30 [info] 15424#14876: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:30 [info] 15424#14876: *11 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:30 [info] 15424#14876: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:30 [info] 15424#14876: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:46 [info] 15424#14876: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:46 [info] 15424#14876: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:46 [info] 15424#14876: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:24:49 [info] 15424#14876: *12 WSASend() failed (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 127.0.0.1, server: , request: "GET /flashlsOSMF.swf HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/GrindPlayer.swf"
+2020/03/02 15:24:54 [info] 15424#14876: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:25:17 [info] 15424#14876: *14 client connected '127.0.0.1'
+2020/03/02 15:25:17 [info] 15424#14876: *14 connect: app='vod' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/vod' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:25:17 [info] 15424#14876: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:25:17 [info] 15424#14876: *14 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:25:37 [info] 15424#14876: *15 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/02 15:25:44 [info] 15424#14876: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:25:44 [info] 15424#14876: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:25:59 [info] 15424#14876: *16 client connected '127.0.0.1'
+2020/03/02 15:25:59 [info] 15424#14876: *16 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:25:59 [info] 15424#14876: *16 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:25:59 [info] 15424#14876: *16 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:26:40 [info] 15424#14876: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:26:40 [info] 15424#14876: *16 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:26:40 [info] 15424#14876: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:26:40 [info] 15424#14876: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:28:50 [info] 15424#14876: *18 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/02 15:28:50 [error] 15424#14876: *19 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 15:28:50 [info] 15424#14876: *19 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/02 15:34:06 [info] 15424#14876: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:34:13 [info] 15424#14876: *21 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:40:38 [notice] 14520#16296: signal process started
+2020/03/02 15:40:38 [notice] 15816#16368: exiting
+2020/03/02 15:40:38 [notice] 15424#8564: gracefully shutting down
+2020/03/02 15:40:38 [notice] 15424#4644: exiting
+2020/03/02 15:40:38 [notice] 15424#14876: exiting
+2020/03/02 15:40:38 [notice] 15424#8564: exit
+2020/03/02 15:40:38 [notice] 15816#16368: worker process 15424 exited with code 0
+2020/03/02 15:40:38 [notice] 15816#16368: exit
+2020/03/02 15:40:44 [emerg] 15548#16316: CreateDirectory() "F:
+ginx-rtmp-win32-dev" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2020/03/02 15:41:34 [emerg] 13272#16096: CreateDirectory() "F:
+ginx-rtmp-win32-dev" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2020/03/02 15:42:27 [notice] 16108#10200: using the "select" event method
+2020/03/02 15:42:27 [notice] 16108#10200: nginx/1.14.1
+2020/03/02 15:42:27 [info] 16108#10200: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:42:27 [notice] 16108#10200: start worker processes
+2020/03/02 15:42:27 [notice] 16108#10200: start worker process 3092
+2020/03/02 15:42:28 [notice] 3092#15932: nginx/1.14.1
+2020/03/02 15:42:28 [info] 3092#15932: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:42:28 [notice] 3092#15932: create thread 9164
+2020/03/02 15:42:28 [notice] 3092#15932: create thread 15704
+2020/03/02 15:42:28 [notice] 3092#15932: create thread 3308
+2020/03/02 15:42:34 [notice] 15960#15272: signal process started
+2020/03/02 15:42:34 [notice] 16108#10200: exiting
+2020/03/02 15:42:34 [notice] 3092#15932: gracefully shutting down
+2020/03/02 15:42:34 [notice] 3092#15704: exiting
+2020/03/02 15:42:34 [notice] 3092#9164: exiting
+2020/03/02 15:42:34 [notice] 3092#15932: exit
+2020/03/02 15:42:34 [notice] 16108#10200: worker process 3092 exited with code 0
+2020/03/02 15:42:34 [notice] 16108#10200: exit
+2020/03/02 15:44:01 [emerg] 8416#7356: CreateDirectory() "F:
+ginx-rtmp-win32-dev" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2020/03/02 15:49:11 [emerg] 13768#4680: CreateDirectory() "F:
+ginx-rtmp-win32-dev" failed (123: The filename, directory name, or volume label syntax is incorrect)
+2020/03/02 15:49:49 [notice] 15404#14148: using the "select" event method
+2020/03/02 15:49:49 [notice] 15404#14148: nginx/1.14.1
+2020/03/02 15:49:49 [info] 15404#14148: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:49:49 [notice] 15404#14148: start worker processes
+2020/03/02 15:49:49 [notice] 15404#14148: start worker process 15336
+2020/03/02 15:49:49 [notice] 15336#2528: nginx/1.14.1
+2020/03/02 15:49:49 [info] 15336#2528: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 15:49:49 [notice] 15336#2528: create thread 3988
+2020/03/02 15:49:49 [notice] 15336#2528: create thread 14840
+2020/03/02 15:49:49 [notice] 15336#2528: create thread 3908
+2020/03/02 15:50:09 [info] 15336#3988: *1 client connected '127.0.0.1'
+2020/03/02 15:50:09 [info] 15336#3988: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:50:09 [info] 15336#3988: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:50:09 [info] 15336#3988: *1 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:50:29 [info] 15336#3988: *2 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/02 15:50:36 [error] 15336#3988: *3 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2020/03/02 15:50:36 [error] 15336#3988: *4 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2020/03/02 15:50:36 [error] 15336#3988: *3 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 15:50:37 [info] 15336#3988: *4 WSASend() failed (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 127.0.0.1, server: , request: "GET /Main.swf HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/index.html"
+2020/03/02 15:50:48 [info] 15336#3988: *5 client connected '127.0.0.1'
+2020/03/02 15:50:48 [info] 15336#3988: *5 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:50:48 [info] 15336#3988: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:50:48 [info] 15336#3988: *5 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:15 [info] 15336#3988: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:15 [info] 15336#3988: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:15 [info] 15336#3988: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:15 [info] 15336#3988: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:42 [info] 15336#3988: *6 client connected '127.0.0.1'
+2020/03/02 15:51:42 [info] 15336#3988: *6 connect: app='vod' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/vod' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:42 [info] 15336#3988: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:42 [info] 15336#3988: *6 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:49 [info] 15336#3988: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:51:49 [info] 15336#3988: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:07 [info] 15336#3988: *7 client connected '127.0.0.1'
+2020/03/02 15:52:07 [info] 15336#3988: *7 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:07 [info] 15336#3988: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:07 [info] 15336#3988: *7 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:32 [info] 15336#3988: *5 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:32 [info] 15336#3988: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:32 [info] 15336#3988: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:33 [info] 15336#3988: *8 client connected '127.0.0.1'
+2020/03/02 15:52:33 [info] 15336#3988: *8 connect: app='hls' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/hls' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:33 [info] 15336#3988: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:52:33 [info] 15336#3988: *8 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:53:15 [info] 15336#3988: *8 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:53:15 [info] 15336#3988: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:53:15 [info] 15336#3988: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:54:40 [info] 15336#3988: *9 client connected '127.0.0.1'
+2020/03/02 15:54:40 [info] 15336#3988: *9 connect: app='vod' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/vod' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:54:40 [info] 15336#3988: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:54:40 [info] 15336#3988: *9 play: name='test.m3u8' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:54:40 [info] 15336#3988: *9 play: play name='test.m3u8' timestamp=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:54:57 [info] 15336#3988: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 15:55:18 [info] 15336#3988: *9 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:18 [info] 15336#3988: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:18 [info] 15336#3988: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:20 [info] 15336#3988: *11 client connected '127.0.0.1'
+2020/03/02 15:55:20 [info] 15336#3988: *11 connect: app='vod' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/vod' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:20 [info] 15336#3988: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:20 [info] 15336#3988: *11 play: name='test16.ts' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:20 [info] 15336#3988: *11 play: play name='test16.ts' timestamp=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:27 [info] 15336#3988: *11 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:27 [info] 15336#3988: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:27 [info] 15336#3988: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:31 [info] 15336#3988: *12 client connected '127.0.0.1'
+2020/03/02 15:55:31 [info] 15336#3988: *12 connect: app='vod' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/vod' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:31 [info] 15336#3988: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:31 [info] 15336#3988: *12 play: name='test-16.ts' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:55:31 [info] 15336#3988: *12 play: play name='test-16.ts' timestamp=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:56:45 [info] 15336#3988: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:56:45 [info] 15336#3988: *7 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:56:45 [info] 15336#3988: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 15:56:45 [info] 15336#3988: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:00:34 [info] 15336#3988: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 16:00:58 [info] 15336#3988: *14 client connected '127.0.0.1'
+2020/03/02 16:00:58 [info] 15336#3988: *14 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:00:58 [info] 15336#3988: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:00:58 [info] 15336#3988: *14 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:02 [info] 15336#3988: *12 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:02 [info] 15336#3988: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:02 [info] 15336#3988: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:03 [info] 15336#3988: *15 client connected '127.0.0.1'
+2020/03/02 16:01:03 [info] 15336#3988: *15 connect: app='hls' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/hls' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:03 [info] 15336#3988: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:03 [info] 15336#3988: *15 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:30 [info] 15336#3988: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:30 [info] 15336#3988: *14 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:30 [info] 15336#3988: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:01:30 [info] 15336#3988: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:18:05 [info] 15336#3988: *16 client connected '127.0.0.1'
+2020/03/02 16:18:05 [info] 15336#3988: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:18:05 [info] 15336#3988: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:20:33 [info] 15336#3988: *17 client connected '127.0.0.1'
+2020/03/02 16:20:33 [info] 15336#3988: *17 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:20:33 [info] 15336#3988: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:25:38 [notice] 16068#15876: signal process started
+2020/03/02 16:25:39 [notice] 15404#14148: exiting
+2020/03/02 16:25:39 [notice] 15336#2528: gracefully shutting down
+2020/03/02 16:25:39 [notice] 15336#14840: exiting
+2020/03/02 16:25:44 [notice] 15404#14148: exit
+2020/03/02 16:25:49 [notice] 15432#11740: using the "select" event method
+2020/03/02 16:25:49 [notice] 15432#11740: nginx/1.14.1
+2020/03/02 16:25:49 [info] 15432#11740: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 16:25:49 [notice] 15432#11740: start worker processes
+2020/03/02 16:25:49 [notice] 15432#11740: start worker process 10640
+2020/03/02 16:25:49 [notice] 10640#5528: nginx/1.14.1
+2020/03/02 16:25:49 [info] 10640#5528: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 16:25:49 [notice] 10640#5528: create thread 15632
+2020/03/02 16:25:49 [notice] 10640#5528: create thread 16220
+2020/03/02 16:25:49 [notice] 10640#5528: create thread 2344
+2020/03/02 16:26:13 [info] 10640#15632: *1 client connected '127.0.0.1'
+2020/03/02 16:26:13 [info] 10640#15632: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:26:13 [info] 10640#15632: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:26:13 [info] 10640#15632: *1 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:26:27 [info] 10640#15632: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:26:27 [info] 10640#15632: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:26:27 [info] 10640#15632: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:26:27 [info] 10640#15632: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:27:35 [notice] 16376#14080: signal process started
+2020/03/02 16:27:35 [notice] 15432#11740: exiting
+2020/03/02 16:27:35 [notice] 10640#5528: gracefully shutting down
+2020/03/02 16:27:35 [notice] 10640#16220: exiting
+2020/03/02 16:27:35 [notice] 10640#15632: exiting
+2020/03/02 16:27:35 [notice] 10640#5528: exit
+2020/03/02 16:27:35 [notice] 15432#11740: worker process 10640 exited with code 0
+2020/03/02 16:27:35 [notice] 15432#11740: exit
+2020/03/02 16:27:41 [notice] 16328#5396: using the "select" event method
+2020/03/02 16:27:41 [notice] 16328#5396: nginx/1.14.1
+2020/03/02 16:27:41 [info] 16328#5396: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 16:27:41 [notice] 16328#5396: start worker processes
+2020/03/02 16:27:41 [notice] 16328#5396: start worker process 3308
+2020/03/02 16:27:41 [notice] 3308#13700: nginx/1.14.1
+2020/03/02 16:27:41 [info] 3308#13700: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 16:27:41 [notice] 3308#13700: create thread 15940
+2020/03/02 16:27:41 [notice] 3308#13700: create thread 15456
+2020/03/02 16:27:41 [notice] 3308#13700: create thread 15636
+2020/03/02 16:27:55 [info] 3308#15940: *1 client connected '127.0.0.1'
+2020/03/02 16:27:55 [info] 3308#15940: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:27:55 [info] 3308#15940: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:27:55 [info] 3308#15940: *1 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:28:05 [info] 3308#15940: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:28:05 [info] 3308#15940: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:28:05 [info] 3308#15940: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:28:05 [info] 3308#15940: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:29:11 [info] 3308#15940: *5 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2020/03/02 16:29:11 [info] 3308#15940: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 16:29:13 [info] 3308#15940: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 16:29:13 [info] 3308#15940: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/02 16:29:56 [info] 3308#15940: *6 client connected '127.0.0.1'
+2020/03/02 16:29:56 [info] 3308#15940: *6 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:29:56 [info] 3308#15940: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:29:56 [info] 3308#15940: *6 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:30:03 [info] 3308#15940: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:30:03 [info] 3308#15940: *6 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:30:03 [info] 3308#15940: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:30:03 [info] 3308#15940: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:48:37 [notice] 3460#5672: signal process started
+2020/03/02 16:48:37 [notice] 16328#5396: exiting
+2020/03/02 16:48:37 [notice] 3308#13700: gracefully shutting down
+2020/03/02 16:48:37 [notice] 3308#15456: exiting
+2020/03/02 16:48:37 [notice] 3308#15940: exiting
+2020/03/02 16:48:37 [notice] 3308#13700: exit
+2020/03/02 16:48:37 [notice] 16328#5396: worker process 3308 exited with code 0
+2020/03/02 16:48:37 [notice] 16328#5396: exit
+2020/03/02 16:48:42 [notice] 15944#9636: using the "select" event method
+2020/03/02 16:48:42 [notice] 15944#9636: nginx/1.14.1
+2020/03/02 16:48:42 [info] 15944#9636: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 16:48:42 [notice] 15944#9636: start worker processes
+2020/03/02 16:48:42 [notice] 15944#9636: start worker process 16064
+2020/03/02 16:48:42 [notice] 16064#4344: nginx/1.14.1
+2020/03/02 16:48:42 [info] 16064#4344: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/02 16:48:42 [notice] 16064#4344: create thread 14920
+2020/03/02 16:48:42 [notice] 16064#4344: create thread 4680
+2020/03/02 16:48:42 [notice] 16064#4344: create thread 15844
+2020/03/02 16:49:58 [info] 16064#14920: *1 client connected '127.0.0.1'
+2020/03/02 16:49:58 [info] 16064#14920: *1 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:49:58 [info] 16064#14920: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:49:58 [info] 16064#14920: *1 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:53:17 [error] 16064#14920: *1 hls: force fragment split: 50.040 sec, , client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:53:20 [error] 16064#14920: *2 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/02 16:53:20 [info] 16064#14920: *2 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/02 16:53:21 [error] 16064#14920: *1 hls: force fragment split: 50.040 sec, , client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:53:24 [error] 16064#14920: *1 hls: force fragment split: 50.040 sec, , client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:53:27 [info] 16064#14920: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:53:27 [info] 16064#14920: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:53:27 [info] 16064#14920: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:53:27 [info] 16064#14920: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:57:19 [info] 16064#14920: *4 client connected '127.0.0.1'
+2020/03/02 16:57:19 [info] 16064#14920: *4 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:57:19 [info] 16064#14920: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:57:19 [info] 16064#14920: *4 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:57:26 [info] 16064#14920: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:57:26 [info] 16064#14920: *4 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:57:26 [info] 16064#14920: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 16:57:26 [info] 16064#14920: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:08:33 [info] 16064#14920: *5 client connected '127.0.0.1'
+2020/03/02 17:08:33 [info] 16064#14920: *5 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:08:33 [info] 16064#14920: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:08:33 [info] 16064#14920: *5 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:08:50 [info] 16064#14920: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:08:50 [info] 16064#14920: *5 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:08:50 [info] 16064#14920: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:08:50 [info] 16064#14920: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:09:36 [info] 16064#14920: *6 client connected '127.0.0.1'
+2020/03/02 17:09:36 [info] 16064#14920: *6 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:09:36 [info] 16064#14920: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:09:36 [info] 16064#14920: *6 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:09:43 [info] 16064#14920: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:09:43 [info] 16064#14920: *6 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:09:43 [info] 16064#14920: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:09:43 [info] 16064#14920: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:17:39 [info] 16064#14920: *7 client connected '127.0.0.1'
+2020/03/02 17:17:39 [info] 16064#14920: *7 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:17:39 [info] 16064#14920: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:17:39 [info] 16064#14920: *7 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:01 [info] 16064#14920: *8 client connected '127.0.0.1'
+2020/03/02 17:18:01 [info] 16064#14920: *8 connect: app='hls' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/hls' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:01 [info] 16064#14920: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:01 [info] 16064#14920: *8 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:14 [info] 16064#14920: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:14 [info] 16064#14920: *7 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:14 [info] 16064#14920: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:14 [info] 16064#14920: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:32 [info] 16064#14920: *9 client connected '127.0.0.1'
+2020/03/02 17:18:32 [info] 16064#14920: *9 connect: app='hls' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/hls' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:32 [info] 16064#14920: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:18:32 [info] 16064#14920: *9 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:19:37 [info] 16064#14920: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:19:37 [info] 16064#14920: *9 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:19:37 [info] 16064#14920: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:19:37 [info] 16064#14920: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:00 [info] 16064#14920: *10 client connected '127.0.0.1'
+2020/03/02 17:20:00 [info] 16064#14920: *10 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:00 [info] 16064#14920: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:00 [info] 16064#14920: *10 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:05 [info] 16064#14920: *8 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:05 [info] 16064#14920: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:05 [info] 16064#14920: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:13 [info] 16064#14920: *11 client connected '127.0.0.1'
+2020/03/02 17:20:13 [info] 16064#14920: *11 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/index.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:13 [info] 16064#14920: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:20:13 [info] 16064#14920: *11 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:21:06 [info] 16064#14920: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:21:06 [info] 16064#14920: *10 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:21:06 [info] 16064#14920: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:21:06 [info] 16064#14920: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:21:28 [info] 16064#14920: *12 client connected '127.0.0.1'
+2020/03/02 17:21:28 [info] 16064#14920: *12 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:21:28 [info] 16064#14920: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:21:28 [info] 16064#14920: *12 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:34:42 [info] 16064#14920: *11 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:34:42 [info] 16064#14920: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:34:42 [info] 16064#14920: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:35:05 [info] 16064#14920: *12 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:35:05 [info] 16064#14920: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/02 17:35:05 [info] 16064#14920: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 09:18:13 [notice] 896#2084: using the "select" event method
+2020/03/03 09:18:13 [notice] 896#2084: nginx/1.14.1
+2020/03/03 09:18:13 [info] 896#2084: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/03 09:18:13 [notice] 896#2084: start worker processes
+2020/03/03 09:18:13 [notice] 896#2084: start worker process 8644
+2020/03/03 09:18:14 [notice] 8644#1616: nginx/1.14.1
+2020/03/03 09:18:14 [info] 8644#1616: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/03 09:18:14 [notice] 8644#1616: create thread 8692
+2020/03/03 09:18:14 [notice] 8644#1616: create thread 8852
+2020/03/03 09:18:14 [notice] 8644#1616: create thread 9180
+2020/03/03 09:19:08 [notice] 7292#8540: signal process started
+2020/03/03 09:19:08 [notice] 896#2084: exiting
+2020/03/03 09:19:08 [notice] 8644#1616: gracefully shutting down
+2020/03/03 09:19:08 [notice] 8644#8852: exiting
+2020/03/03 09:19:08 [notice] 8644#8692: exiting
+2020/03/03 09:19:08 [notice] 8644#1616: exit
+2020/03/03 09:19:08 [notice] 896#2084: worker process 8644 exited with code 0
+2020/03/03 09:19:08 [notice] 896#2084: exit
+2020/03/03 09:29:16 [notice] 6976#2272: using the "select" event method
+2020/03/03 09:29:16 [notice] 6976#2272: nginx/1.14.1
+2020/03/03 09:29:16 [info] 6976#2272: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/03 09:29:16 [notice] 6976#2272: start worker processes
+2020/03/03 09:29:16 [notice] 6976#2272: start worker process 7480
+2020/03/03 09:29:16 [notice] 7480#4728: nginx/1.14.1
+2020/03/03 09:29:16 [info] 7480#4728: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/03 09:29:16 [notice] 7480#4728: create thread 3972
+2020/03/03 09:29:16 [notice] 7480#4728: create thread 7344
+2020/03/03 09:29:16 [notice] 7480#4728: create thread 8044
+2020/03/03 09:29:27 [error] 7480#3972: *1 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/03 09:29:27 [error] 7480#3972: *2 CreateFile() "F:\nginx-rtmp-win32-dev/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/03 09:29:27 [info] 7480#3972: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 09:29:27 [info] 7480#3972: *1 WSASend() failed (10053: An established connection was aborted by the software in your host machine) while sending response to client, client: 127.0.0.1, server: , request: "GET /Main.swf HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/03/03 09:29:27 [error] 7480#3972: *2 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 09:29:53 [info] 7480#3972: *4 client connected '127.0.0.1'
+2020/03/03 09:29:53 [info] 7480#3972: *4 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 09:29:53 [info] 7480#3972: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 09:29:53 [info] 7480#3972: *4 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 09:30:00 [info] 7480#3972: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 09:30:00 [info] 7480#3972: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 09:30:00 [info] 7480#3972: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:01:21 [error] 7480#3972: *5 CreateFile() "F:\nginx-rtmp-win32-dev/html/vedio5" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vedio5 HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:01:21 [error] 7480#3972: *5 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:01:21 [info] 7480#3972: *5 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/03 10:01:28 [error] 7480#3972: *6 CreateFile() "F:\nginx-rtmp-win32-dev/html/vedeo5" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vedeo5 HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:04:23 [info] 7480#3972: *8 client connected '127.0.0.1'
+2020/03/03 10:04:23 [info] 7480#3972: *8 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:23 [info] 7480#3972: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:23 [info] 7480#3972: *8 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:26 [info] 7480#3972: *9 client connected '127.0.0.1'
+2020/03/03 10:04:26 [info] 7480#3972: *9 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:26 [info] 7480#3972: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:26 [info] 7480#3972: *9 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:38 [info] 7480#3972: *9 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:38 [info] 7480#3972: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:38 [info] 7480#3972: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:04:58 [info] 7480#3972: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 10:05:18 [info] 7480#3972: *11 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/03 10:05:19 [error] 7480#3972: *12 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:05:33 [error] 7480#3972: *12 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:05:35 [info] 7480#3972: *14 client connected '127.0.0.1'
+2020/03/03 10:05:36 [info] 7480#3972: *14 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:05:36 [info] 7480#3972: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:05:36 [info] 7480#3972: *14 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:05:38 [info] 7480#3972: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 10:05:47 [error] 7480#3972: *12 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:05:47 [error] 7480#3972: *12 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:12:26 [info] 7480#3972: *14 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:12:26 [info] 7480#3972: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:12:26 [info] 7480#3972: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:12:30 [info] 7480#3972: *16 client connected '127.0.0.1'
+2020/03/03 10:12:30 [info] 7480#3972: *16 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:12:30 [info] 7480#3972: *16 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:12:30 [info] 7480#3972: *16 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:16:22 [info] 7480#3972: *16 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:16:22 [info] 7480#3972: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:16:22 [info] 7480#3972: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:16:23 [error] 7480#3972: *18 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:18:21 [info] 7480#3972: *19 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/03 10:18:37 [error] 7480#3972: *20 CreateFile() "F:\nginx-rtmp-win32-dev/html/vide5" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vide5 HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:18:37 [error] 7480#3972: *20 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:18:37 [info] 7480#3972: *20 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/03 10:18:44 [error] 7480#3972: *21 CreateFile() "F:\nginx-rtmp-win32-dev/html/vide05" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /vide05 HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:18:48 [error] 7480#3972: *21 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:19:09 [error] 7480#3972: *21 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:21:06 [error] 7480#3972: *23 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:21:06 [error] 7480#3972: *23 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:21:16 [error] 7480#3972: *23 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:21:17 [error] 7480#3972: *23 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:21:55 [error] 7480#3972: *24 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:21:55 [error] 7480#3972: *24 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:21:56 [error] 7480#3972: *24 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:21:58 [info] 7480#3972: *24 client 127.0.0.1 closed keepalive connection
+2020/03/03 10:21:58 [info] 7480#3972: *25 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 10:21:59 [error] 7480#3972: *27 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:22:07 [info] 7480#3972: *26 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2020/03/03 10:22:07 [info] 7480#3972: *27 client 127.0.0.1 closed keepalive connection (10054: An existing connection was forcibly closed by the remote host)
+2020/03/03 10:22:08 [error] 7480#3972: *29 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/video5/"
+2020/03/03 10:22:08 [info] 7480#3972: *28 client 127.0.0.1 closed keepalive connection
+2020/03/03 10:22:08 [info] 7480#3972: *29 client 127.0.0.1 closed keepalive connection
+2020/03/03 10:25:13 [error] 7480#3972: *33 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:27:16 [error] 7480#3972: *37 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 10:27:20 [info] 7480#3972: *38 client connected '127.0.0.1'
+2020/03/03 10:27:20 [info] 7480#3972: *38 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:27:20 [info] 7480#3972: *38 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:27:20 [info] 7480#3972: *38 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:28:51 [info] 7480#3972: *38 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:28:51 [info] 7480#3972: *38 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:28:51 [info] 7480#3972: *38 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:03 [info] 7480#3972: *42 client connected '127.0.0.1'
+2020/03/03 10:31:03 [info] 7480#3972: *42 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:03 [info] 7480#3972: *42 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:03 [info] 7480#3972: *42 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:35 [info] 7480#3972: *42 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:35 [info] 7480#3972: *42 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:35 [info] 7480#3972: *42 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:36 [info] 7480#3972: *43 client connected '127.0.0.1'
+2020/03/03 10:31:36 [info] 7480#3972: *43 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:36 [info] 7480#3972: *43 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:31:36 [info] 7480#3972: *43 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:32:34 [info] 7480#3972: *43 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:32:34 [info] 7480#3972: *43 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:32:34 [info] 7480#3972: *43 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:32:35 [info] 7480#3972: *44 client connected '127.0.0.1'
+2020/03/03 10:32:35 [info] 7480#3972: *44 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:32:35 [info] 7480#3972: *44 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 10:32:35 [info] 7480#3972: *44 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:00:25 [info] 7480#3972: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:00:25 [info] 7480#3972: *8 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:00:25 [info] 7480#3972: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:00:25 [info] 7480#3972: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:22:35 [info] 7480#3972: *45 client connected '127.0.0.1'
+2020/03/03 11:22:35 [info] 7480#3972: *45 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:22:35 [info] 7480#3972: *45 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:22:35 [info] 7480#3972: *45 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:22:51 [info] 7480#3972: *46 client connected '127.0.0.1'
+2020/03/03 11:22:51 [info] 7480#3972: *46 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:22:51 [info] 7480#3972: *46 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:22:51 [info] 7480#3972: *46 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:23:03 [info] 7480#3972: *45 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:23:03 [info] 7480#3972: *45 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:23:03 [info] 7480#3972: *45 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:23:12 [info] 7480#3972: *47 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 11:23:45 [info] 7480#3972: *48 client connected '127.0.0.1'
+2020/03/03 11:23:45 [info] 7480#3972: *48 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:23:45 [info] 7480#3972: *48 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:23:45 [info] 7480#3972: *48 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:24:08 [info] 7480#3972: *48 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:24:08 [info] 7480#3972: *48 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:24:08 [info] 7480#3972: *48 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:24:25 [info] 7480#3972: *49 client connected '127.0.0.1'
+2020/03/03 11:24:25 [info] 7480#3972: *49 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:24:25 [info] 7480#3972: *49 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:24:25 [info] 7480#3972: *49 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:03 [info] 7480#3972: *44 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:03 [info] 7480#3972: *44 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:04 [info] 7480#3972: *50 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/03 11:37:04 [error] 7480#3972: *51 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:37:04 [info] 7480#3972: *52 client connected '127.0.0.1'
+2020/03/03 11:37:04 [info] 7480#3972: *52 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:04 [info] 7480#3972: *52 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:04 [info] 7480#3972: *52 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:20 [info] 7480#3972: *52 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:20 [info] 7480#3972: *52 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:20 [info] 7480#3972: *52 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:21 [error] 7480#3972: *51 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:37:23 [info] 7480#3972: *54 client connected '127.0.0.1'
+2020/03/03 11:37:23 [info] 7480#3972: *54 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:23 [info] 7480#3972: *54 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:23 [info] 7480#3972: *54 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:37:25 [info] 7480#3972: *53 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 11:40:28 [info] 7480#3972: *54 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:40:28 [info] 7480#3972: *54 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:40:28 [info] 7480#3972: *54 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:40:29 [error] 7480#3972: *56 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:40:36 [error] 7480#3972: *56 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:41:12 [error] 7480#3972: *56 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:41:12 [info] 7480#3972: *56 client 127.0.0.1 closed keepalive connection
+2020/03/03 11:45:55 [error] 7480#3972: *57 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:45:55 [error] 7480#3972: *57 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:45:57 [error] 7480#3972: *59 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:45:57 [error] 7480#3972: *59 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:46:02 [error] 7480#3972: *59 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:46:21 [error] 7480#3972: *59 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:46:26 [error] 7480#3972: *59 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:48:54 [error] 7480#3972: *61 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:48:54 [error] 7480#3972: *61 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:49:19 [error] 7480#3972: *61 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:50:09 [error] 7480#3972: *61 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:53:16 [info] 7480#3972: *49 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:53:16 [info] 7480#3972: *49 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:53:16 [info] 7480#3972: *49 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:53:42 [error] 7480#3972: *63 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:53:42 [error] 7480#3972: *63 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:53:48 [info] 7480#3972: *64 client connected '127.0.0.1'
+2020/03/03 11:53:48 [info] 7480#3972: *64 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:53:48 [info] 7480#3972: *64 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:53:48 [info] 7480#3972: *64 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:12 [info] 7480#3972: *64 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:12 [info] 7480#3972: *64 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:12 [info] 7480#3972: *64 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:52 [error] 7480#3972: *63 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:54:58 [info] 7480#3972: *65 client connected '127.0.0.1'
+2020/03/03 11:54:58 [info] 7480#3972: *65 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:58 [info] 7480#3972: *65 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:58 [info] 7480#3972: *65 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:59 [info] 7480#3972: *66 client connected '127.0.0.1'
+2020/03/03 11:54:59 [info] 7480#3972: *66 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:59 [info] 7480#3972: *66 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:54:59 [info] 7480#3972: *66 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:55:29 [info] 7480#3972: *67 client connected '127.0.0.1'
+2020/03/03 11:55:29 [info] 7480#3972: *67 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:55:29 [info] 7480#3972: *67 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:55:29 [info] 7480#3972: *67 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:55:29 [error] 7480#3972: *67 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:55:29 [info] 7480#3972: *67 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:55:29 [info] 7480#3972: *67 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:22 [info] 7480#3972: *66 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:22 [info] 7480#3972: *66 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:22 [info] 7480#3972: *66 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:33 [info] 7480#3972: *65 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:33 [info] 7480#3972: *65 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:33 [info] 7480#3972: *65 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:34 [error] 7480#3972: *69 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:56:38 [info] 7480#3972: *72 client connected '127.0.0.1'
+2020/03/03 11:56:38 [info] 7480#3972: *72 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:38 [info] 7480#3972: *72 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:38 [info] 7480#3972: *72 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:39 [info] 7480#3972: *73 client connected '127.0.0.1'
+2020/03/03 11:56:39 [info] 7480#3972: *73 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:39 [info] 7480#3972: *73 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:39 [info] 7480#3972: *73 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:59 [info] 7480#3972: *74 client connected '127.0.0.1'
+2020/03/03 11:56:59 [info] 7480#3972: *74 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:59 [info] 7480#3972: *74 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:59 [info] 7480#3972: *74 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:59 [error] 7480#3972: *74 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:59 [info] 7480#3972: *74 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:56:59 [info] 7480#3972: *74 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:57:25 [info] 7480#3972: *75 client connected '127.0.0.1'
+2020/03/03 11:57:25 [info] 7480#3972: *75 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:57:25 [info] 7480#3972: *75 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:57:25 [info] 7480#3972: *75 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:57:25 [error] 7480#3972: *75 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:57:25 [info] 7480#3972: *75 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:57:25 [info] 7480#3972: *75 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:08 [info] 7480#3972: *73 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:08 [info] 7480#3972: *73 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:08 [info] 7480#3972: *73 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:17 [info] 7480#3972: *72 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:17 [info] 7480#3972: *72 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:17 [info] 7480#3972: *72 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:17 [error] 7480#3972: *78 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 11:59:23 [info] 7480#3972: *80 client connected '127.0.0.1'
+2020/03/03 11:59:23 [info] 7480#3972: *80 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:23 [info] 7480#3972: *80 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:23 [info] 7480#3972: *80 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:24 [info] 7480#3972: *81 client connected '127.0.0.1'
+2020/03/03 11:59:24 [info] 7480#3972: *81 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:24 [info] 7480#3972: *81 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:24 [info] 7480#3972: *81 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:34 [info] 7480#3972: *81 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:34 [info] 7480#3972: *81 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:34 [info] 7480#3972: *81 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:36 [info] 7480#3972: *82 client connected '127.0.0.1'
+2020/03/03 11:59:36 [info] 7480#3972: *82 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:36 [info] 7480#3972: *82 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:36 [info] 7480#3972: *82 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:51 [info] 7480#3972: *82 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:51 [info] 7480#3972: *82 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:51 [info] 7480#3972: *82 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:53 [info] 7480#3972: *83 client connected '127.0.0.1'
+2020/03/03 11:59:53 [info] 7480#3972: *83 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:53 [info] 7480#3972: *83 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 11:59:53 [info] 7480#3972: *83 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:34:18 [error] 7480#3972: *84 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 13:39:56 [info] 7480#3972: *83 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:39:56 [info] 7480#3972: *83 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:39:56 [info] 7480#3972: *83 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:40:33 [info] 7480#3972: *46 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:40:33 [info] 7480#3972: *46 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:40:33 [info] 7480#3972: *46 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:40:40 [info] 7480#3972: *85 client connected '127.0.0.1'
+2020/03/03 13:40:40 [info] 7480#3972: *85 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://127.0.0.1/Main.swf' tc_url='rtmp://127.0.0.1/live' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:40:40 [info] 7480#3972: *85 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:40:40 [info] 7480#3972: *85 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:06 [info] 7480#3972: *80 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:06 [info] 7480#3972: *80 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:06 [info] 7480#3972: *80 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:06 [info] 7480#3972: *85 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:06 [info] 7480#3972: *85 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:06 [info] 7480#3972: *85 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:20 [error] 7480#3972: *86 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 13:42:36 [info] 7480#3972: *87 client connected '127.0.0.1'
+2020/03/03 13:42:36 [info] 7480#3972: *87 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:36 [info] 7480#3972: *87 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:36 [info] 7480#3972: *87 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:50 [info] 7480#3972: *87 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:50 [info] 7480#3972: *87 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:50 [info] 7480#3972: *87 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:42:55 [info] 7480#3972: *88 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 13:43:21 [info] 7480#3972: *89 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 13:43:21 [info] 7480#3972: *90 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 13:43:23 [info] 7480#3972: *91 client connected '127.0.0.1'
+2020/03/03 13:43:23 [info] 7480#3972: *91 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:23 [info] 7480#3972: *91 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:23 [info] 7480#3972: *91 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:24 [info] 7480#3972: *92 client connected '127.0.0.1'
+2020/03/03 13:43:24 [info] 7480#3972: *92 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:24 [info] 7480#3972: *92 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:24 [info] 7480#3972: *92 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:35 [info] 7480#3972: *92 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:35 [info] 7480#3972: *92 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:35 [info] 7480#3972: *92 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:41 [info] 7480#3972: *93 client connected '127.0.0.1'
+2020/03/03 13:43:41 [info] 7480#3972: *93 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:41 [info] 7480#3972: *93 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:43:41 [info] 7480#3972: *93 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:21 [info] 7480#3972: *93 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:21 [info] 7480#3972: *93 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:21 [info] 7480#3972: *93 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:40 [info] 7480#3972: *91 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:40 [info] 7480#3972: *91 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:40 [info] 7480#3972: *91 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:46 [info] 7480#3972: *97 client connected '127.0.0.1'
+2020/03/03 13:48:46 [info] 7480#3972: *97 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:46 [info] 7480#3972: *97 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:46 [info] 7480#3972: *97 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:47 [info] 7480#3972: *98 client connected '127.0.0.1'
+2020/03/03 13:48:47 [info] 7480#3972: *98 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:47 [info] 7480#3972: *98 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:47 [info] 7480#3972: *98 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:58 [info] 7480#3972: *98 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:58 [info] 7480#3972: *98 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:48:58 [info] 7480#3972: *98 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:09 [info] 7480#3972: *99 client connected '127.0.0.1'
+2020/03/03 13:49:09 [info] 7480#3972: *99 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:09 [info] 7480#3972: *99 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:09 [info] 7480#3972: *99 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:17 [info] 7480#3972: *99 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:17 [info] 7480#3972: *99 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:17 [info] 7480#3972: *99 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:25 [info] 7480#3972: *100 client connected '127.0.0.1'
+2020/03/03 13:49:25 [info] 7480#3972: *100 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:25 [info] 7480#3972: *100 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:25 [info] 7480#3972: *100 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:41 [info] 7480#3972: *100 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:41 [info] 7480#3972: *100 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:49:41 [info] 7480#3972: *100 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 13:54:00 [notice] 10088#8132: signal process started
+2020/03/03 13:54:00 [notice] 6976#2272: exiting
+2020/03/03 13:54:00 [notice] 7480#4728: gracefully shutting down
+2020/03/03 13:54:00 [notice] 7480#7344: exiting
+2020/03/03 13:54:05 [notice] 6976#2272: exit
+2020/03/03 13:55:59 [notice] 11560#12952: using the "select" event method
+2020/03/03 13:55:59 [notice] 11560#12952: nginx/1.14.1
+2020/03/03 13:55:59 [info] 11560#12952: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/03 13:55:59 [notice] 11560#12952: start worker processes
+2020/03/03 13:55:59 [notice] 11560#12952: start worker process 7220
+2020/03/03 13:55:59 [notice] 7220#13216: nginx/1.14.1
+2020/03/03 13:55:59 [info] 7220#13216: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/03 13:55:59 [notice] 7220#13216: create thread 12908
+2020/03/03 13:55:59 [notice] 7220#13216: create thread 3536
+2020/03/03 13:55:59 [notice] 7220#13216: create thread 2376
+2020/03/03 13:56:07 [info] 7220#12908: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 13:56:15 [info] 7220#12908: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 13:56:20 [info] 7220#12908: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 13:56:33 [info] 7220#12908: *4 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2020/03/03 13:56:43 [info] 7220#12908: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 13:56:48 [error] 7220#12908: *7 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 13:56:57 [notice] 10308#8320: signal process started
+2020/03/03 13:56:57 [notice] 11560#12952: exiting
+2020/03/03 13:56:57 [notice] 7220#13216: gracefully shutting down
+2020/03/03 13:56:57 [notice] 7220#3536: exiting
+2020/03/03 13:56:57 [notice] 7220#12908: exiting
+2020/03/03 13:56:57 [notice] 7220#13216: exit
+2020/03/03 13:56:57 [notice] 11560#12952: worker process 7220 exited with code 0
+2020/03/03 13:56:57 [notice] 11560#12952: exit
+2020/03/03 13:58:19 [notice] 12612#9664: using the "select" event method
+2020/03/03 13:58:19 [notice] 12612#9664: nginx/1.14.1
+2020/03/03 13:58:19 [info] 12612#9664: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/03 13:58:19 [notice] 12612#9664: start worker processes
+2020/03/03 13:58:19 [notice] 12612#9664: start worker process 7352
+2020/03/03 13:58:19 [notice] 7352#12856: nginx/1.14.1
+2020/03/03 13:58:19 [info] 7352#12856: OS: 260110 build:7601, "Service Pack 1", suite:100, type:1
+2020/03/03 13:58:19 [notice] 7352#12856: create thread 2772
+2020/03/03 13:58:19 [notice] 7352#12856: create thread 9884
+2020/03/03 13:58:19 [notice] 7352#12856: create thread 5728
+2020/03/03 13:58:42 [info] 7352#2772: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2020/03/03 13:58:50 [error] 7352#2772: *3 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 14:02:13 [error] 7352#2772: *6 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 14:02:20 [error] 7352#2772: *6 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 14:02:20 [error] 7352#2772: *6 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 14:02:47 [error] 7352#2772: *6 CreateFile() "F:\nginx-rtmp-win32-dev/html/video5/js/video.min.js.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /video5/js/video.min.js.map HTTP/1.1", host: "127.0.0.1"
+2020/03/03 14:02:47 [error] 7352#2772: *6 CreateFile() "F:\nginx-rtmp-win32-dev/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2020/03/03 14:03:05 [info] 7352#2772: *7 client connected '127.0.0.1'
+2020/03/03 14:03:05 [info] 7352#2772: *7 connect: app='live' args='' flashver='WIN 32,0,0,101' swf_url='http://vjs.zencdn.net/swf/5.0.0-rc1/video-js.swf' tc_url='rtmp://127.0.0.1/live/' page_url='http://127.0.0.1/video5/' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 14:03:05 [info] 7352#2772: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 14:03:05 [info] 7352#2772: *7 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 14:03:06 [info] 7352#2772: *8 client connected '127.0.0.1'
+2020/03/03 14:03:06 [info] 7352#2772: *8 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.29' swf_url='' tc_url='rtmp://127.0.0.1:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 14:03:06 [info] 7352#2772: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 14:03:06 [info] 7352#2772: *8 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/03/03 14:05:53 [notice] 10304#11060: signal process started
+2020/03/03 14:05:53 [notice] 12612#9664: exiting
+2020/03/03 14:05:53 [notice] 7352#12856: gracefully shutting down
+2020/03/03 14:05:53 [notice] 7352#9884: exiting
+2020/03/03 14:05:58 [notice] 12612#9664: exit

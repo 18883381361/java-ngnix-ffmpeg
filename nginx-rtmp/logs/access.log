@@ -1,0 +1,391 @@
+127.0.0.1 - - [02/Mar/2020:11:32:35 +0800] "GET / HTTP/1.1" 200 5859 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:32:36 +0800] "GET /history/history.css HTTP/1.1" 404 169 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:32:36 +0800] "GET /history/history.js HTTP/1.1" 404 169 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:32:36 +0800] "GET /swfobject.js HTTP/1.1" 200 10220 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:32:37 +0800] "GET /Main.swf HTTP/1.1" 200 95979 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:32:37 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 [02/Mar/2020:11:36:06 +0800] PLAY "live" "stream" "" - 414 37718 "http://127.0.0.1/" "WIN 32,0,0,101" (53s)
+127.0.0.1 [02/Mar/2020:11:36:22 +0800] PUBLISH "live" "stream" "" - 46579 409 "http://127.0.0.1/" "WIN 32,0,0,101" (1m 0s)
+127.0.0.1 - - [02/Mar/2020:11:37:06 +0800] "GET /vod.html HTTP/1.1" 200 3162 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:37:06 +0800] "GET /ParsedQueryString.js HTTP/1.1" 200 3066 "http://127.0.0.1/vod.html" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:37:06 +0800] "GET /GrindPlayer.swf HTTP/1.1" 200 1014231 "http://127.0.0.1/vod.html" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:37:06 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:37:08 +0800] "GET /flashlsOSMF.swf HTTP/1.1" 200 89820 "http://127.0.0.1/GrindPlayer.swf" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 [02/Mar/2020:11:37:21 +0800] PUBLISH "live" "test2" "" - 505 412 "http://127.0.0.1/" "WIN 32,0,0,101" (53s)
+127.0.0.1 [02/Mar/2020:11:37:21 +0800] PLAY "live" "test2" "" - 459 18123866 "http://127.0.0.1/" "WIN 32,0,0,101" (1m 10s)
+127.0.0.1 - - [02/Mar/2020:11:37:29 +0800] "GET /vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest2 HTTP/1.1" 200 3162 "http://127.0.0.1/vod.html" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:37:30 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:37:59 +0800] "GET /stat HTTP/1.1" 200 1685 "http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest2" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:37:59 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat.xsl" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [02/Mar/2020:11:37:59 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 [02/Mar/2020:11:38:16 +0800] PUBLISH "live" "test2" "" - 57290013 529 "" "FMLE/3.0 (compatible; Lavf58.29" (3m 14s)
+127.0.0.1 - - [02/Mar/2020:11:47:54 +0800] "GET / HTTP/1.1" 200 5859 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:11:47:55 +0800] NONE "live" "" "" - 407 292 "http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Fdemo" "WIN 32,0,0,101" (19s)
+127.0.0.1 - - [02/Mar/2020:11:47:55 +0800] "GET /history/history.css HTTP/1.1" 404 169 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:11:47:55 +0800] "GET /history/history.js HTTP/1.1" 404 169 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:11:47:55 +0800] "GET /Main.swf HTTP/1.1" 200 95979 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:11:56:48 +0800] PUBLISH "live" "test" "" - 97107667 529 "" "FMLE/3.0 (compatible; Lavf58.29" (8m 58s)
+127.0.0.1 [02/Mar/2020:13:51:21 +0800] PUBLISH "live" "test" "" - 406 529 "" "FMLE/3.0 (compatible; Lavf58.29" (7s)
+127.0.0.1 [02/Mar/2020:13:51:26 +0800] PLAY "live" "test" "" - 1408 91813332 "http://127.0.0.1/" "WIN 32,0,0,101" (2h 3m 9s)
+127.0.0.1 - - [02/Mar/2020:13:51:26 +0800] "GET /history/history.css HTTP/1.1" 404 169 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:13:51:26 +0800] "GET /history/history.js HTTP/1.1" 404 169 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:13:51:26 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:13:51:26 +0800] "GET /Main.swf HTTP/1.1" 200 32768 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:14:18:33 +0800] PUBLISH "live" "test" "" - 1132025 529 "" "FMLE/3.0 (compatible; Lavf58.29" (10s)
+127.0.0.1 [02/Mar/2020:14:19:07 +0800] PUBLISH "live" "test" "" - 406 529 "" "FMLE/3.0 (compatible; Lavf58.29" (7s)
+127.0.0.1 - - [02/Mar/2020:14:34:24 +0800] "GET /record_done HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:14:34:24 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:14:44:57 +0800] PUBLISH "live" "test" "" - 406 529 "" "FMLE/3.0 (compatible; Lavf58.29" (7s)
+127.0.0.1 [02/Mar/2020:14:51:52 +0800] PLAY "live" "test" "" - 829 1133225 "http://127.0.0.1/" "WIN 32,0,0,101" (1h 0m 15s)
+127.0.0.1 [02/Mar/2020:14:52:48 +0800] PUBLISH "live" "test" "" - 13544006 529 "" "FMLE/3.0 (compatible; Lavf58.29" (1m 26s)
+127.0.0.1 [02/Mar/2020:14:53:22 +0800] PLAY "live" "test" "" - 443 11989735 "http://127.0.0.1/" "WIN 32,0,0,101" (1m 28s)
+127.0.0.1 [02/Mar/2020:14:53:32 +0800] PLAY "live" "test" "" - 416 436 "http://127.0.0.1/" "WIN 32,0,0,101" (6s)
+127.0.0.1 [02/Mar/2020:14:54:24 +0800] PUBLISH "live" "test" "" - 2594553 529 "" "FMLE/3.0 (compatible; Lavf58.29" (22s)
+127.0.0.1 [02/Mar/2020:15:00:52 +0800] PLAY "live" "test" "" - 458 1636283 "http://127.0.0.1/" "WIN 32,0,0,101" (6m 46s)
+127.0.0.1 [02/Mar/2020:15:01:09 +0800] PUBLISH "live" "test" "" - 12974100 529 "" "FMLE/3.0 (compatible; Lavf58.29" (1m 52s)
+127.0.0.1 - - [02/Mar/2020:15:02:05 +0800] "GET /stat HTTP/1.1" 200 1151 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:02:05 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:02:27 +0800] PLAY "live" "test" "" - 443 12195807 "http://127.0.0.1/" "WIN 32,0,0,101" (1m 33s)
+127.0.0.1 - - [02/Mar/2020:15:02:29 +0800] "GET /flashlsOSMF.swf HTTP/1.1" 200 32768 "http://127.0.0.1/GrindPlayer.swf" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:02:55 +0800] "GET /vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest HTTP/1.1" 200 3162 "http://127.0.0.1/vod.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:02:59 +0800] "GET /flashlsOSMF.swf HTTP/1.1" 200 32768 "http://127.0.0.1/GrindPlayer.swf" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:03:27 +0800] "GET /vod.html?src=rtmp%3A%2F%2F192.168.0.10%2Flive%2Fdemo HTTP/1.1" 200 3162 "http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:03:27 +0800] PLAY "live" "test" "" - 538 680 "http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest" "WIN 32,0,0,101" (27s)
+127.0.0.1 - - [02/Mar/2020:15:03:30 +0800] "GET /flashlsOSMF.swf HTTP/1.1" 200 89820 "http://127.0.0.1/GrindPlayer.swf" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:03:52 +0800] "GET /flashlsOSMF.swf HTTP/1.1" 200 32768 "http://127.0.0.1/GrindPlayer.swf" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:04:46 +0800] PUBLISH "live" "test" "" - 14050425 547 "" "FMLE/3.0 (compatible; Lavf58.29" (2m 1s)
+127.0.0.1 - - [02/Mar/2020:15:06:39 +0800] "GET /vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest1 HTTP/1.1" 200 3162 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:06:39 +0800] PLAY "live" "test" "" - 628 9721706 "http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest" "WIN 32,0,0,101" (2m 46s)
+127.0.0.1 - - [02/Mar/2020:15:06:42 +0800] "GET /flashlsOSMF.swf HTTP/1.1" 200 32768 "http://127.0.0.1/GrindPlayer.swf" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:07:04 +0800] PUBLISH "live" "test1" "" - 2866755 529 "" "FMLE/3.0 (compatible; Lavf58.29" (25s)
+127.0.0.1 - - [02/Mar/2020:15:11:34 +0800] "GET /stat HTTP/1.1" 200 728 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:11:34 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:12:43 +0800] NONE "live" "" "" - 408 292 "http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest1" "WIN 32,0,0,101" (1m 37s)
+127.0.0.1 [02/Mar/2020:15:12:52 +0800] PLAY "live" "test1" "" - 468 436 "http://127.0.0.1/vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest1" "WIN 32,0,0,101" (2s)
+127.0.0.1 - - [02/Mar/2020:15:14:41 +0800] "GET /index.html HTTP/1.1" 200 5859 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:14:41 +0800] "GET /swfobject.js HTTP/1.1" 200 10220 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:14:41 +0800] "GET /history/history.css HTTP/1.1" 404 169 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:14:41 +0800] "GET /history/history.js HTTP/1.1" 404 169 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:14:42 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:14:42 +0800] "GET /Main.swf HTTP/1.1" 200 95979 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:16:58 +0800] "GET /history/history.js HTTP/1.1" 404 169 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:16:58 +0800] "GET /history/history.css HTTP/1.1" 404 169 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:16:58 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:17:16 +0800] PUBLISH "live" "test" "" - 2550349 529 "" "FMLE/3.0 (compatible; Lavf58.29" (28s)
+127.0.0.1 [02/Mar/2020:15:19:16 +0800] PUBLISH "vod" "test" "" - 323 292 "" "FMLE/3.0 (compatible; Lavf58.29" (50s)
+127.0.0.1 [02/Mar/2020:15:19:40 +0800] PUBLISH "live" "test" "" - 406 529 "" "FMLE/3.0 (compatible; Lavf58.29" (7s)
+127.0.0.1 [02/Mar/2020:15:21:21 +0800] PUBLISH "live" "test" "" - 6749778 529 "" "FMLE/3.0 (compatible; Lavf58.29" (45s)
+127.0.0.1 [02/Mar/2020:15:21:55 +0800] PUBLISH "live" "test" "" - 1676015 529 "" "FMLE/3.0 (compatible; Lavf58.29" (11s)
+127.0.0.1 [02/Mar/2020:15:22:53 +0800] PUBLISH "live" "test" "" - 406 529 "" "FMLE/3.0 (compatible; Lavf58.29" (24s)
+127.0.0.1 [02/Mar/2020:15:23:33 +0800] PLAY "live" "test" "" - 443 6736283 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (3m 51s)
+127.0.0.1 [02/Mar/2020:15:23:37 +0800] PUBLISH "live" "test" "" - 406 529 "" "FMLE/3.0 (compatible; Lavf58.29" (6s)
+127.0.0.1 [02/Mar/2020:15:24:00 +0800] PLAY "live" "test" "" - 426 436 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (26s)
+127.0.0.1 [02/Mar/2020:15:24:07 +0800] PUBLISH "live" "test" "" - 1007661 529 "" "FMLE/3.0 (compatible; Lavf58.29" (9s)
+127.0.0.1 [02/Mar/2020:15:24:30 +0800] PUBLISH "live" "test" "" - 1620344 529 "" "FMLE/3.0 (compatible; Lavf58.29" (13s)
+127.0.0.1 [02/Mar/2020:15:24:46 +0800] PLAY "live" "test" "" - 426 2134017 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (45s)
+127.0.0.1 - - [02/Mar/2020:15:24:49 +0800] "GET /flashlsOSMF.swf HTTP/1.1" 200 32768 "http://127.0.0.1/GrindPlayer.swf" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:25:37 +0800] "GET /stat HTTP/1.1" 200 744 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:25:37 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:25:44 +0800] PUBLISH "vod" "test" "" - 323 292 "" "FMLE/3.0 (compatible; Lavf58.29" (27s)
+127.0.0.1 - - [02/Mar/2020:15:26:05 +0800] "GET /stat HTTP/1.1" 200 1401 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:26:05 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:26:11 +0800] "GET /stat HTTP/1.1" 200 1421 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:26:40 +0800] PUBLISH "live" "test" "" - 5345515 529 "" "FMLE/3.0 (compatible; Lavf58.29" (40s)
+127.0.0.1 - - [02/Mar/2020:15:28:50 +0800] "GET /stat HTTP/1.1" 200 740 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:28:50 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:28:50 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:50:29 +0800] "GET /stat HTTP/1.1" 200 1415 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:50:29 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:50:36 +0800] "GET /history/history.js HTTP/1.1" 404 169 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:50:36 +0800] "GET /history/history.css HTTP/1.1" 404 169 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:50:36 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:15:50:37 +0800] "GET /Main.swf HTTP/1.1" 200 32768 "http://127.0.0.1/index.html" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:15:51:15 +0800] PUBLISH "live" "test" "" - 7264169 529 "" "FMLE/3.0 (compatible; Lavf58.29" (1m 6s)
+127.0.0.1 [02/Mar/2020:15:51:49 +0800] PUBLISH "vod" "test" "" - 323 292 "" "FMLE/3.0 (compatible; Lavf58.29" (7s)
+127.0.0.1 [02/Mar/2020:15:52:32 +0800] PLAY "live" "test" "" - 438 2501544 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (1m 43s)
+127.0.0.1 [02/Mar/2020:15:53:15 +0800] PLAY "hls" "test" "" - 432 3496021 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (41s)
+127.0.0.1 [02/Mar/2020:15:55:18 +0800] PLAY "vod" "test.m3u8" "" - 425 430 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (38s)
+127.0.0.1 [02/Mar/2020:15:55:27 +0800] PLAY "vod" "test16.ts" "" - 429 430 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (7s)
+127.0.0.1 [02/Mar/2020:15:56:45 +0800] PUBLISH "hls" "test" "" - 29502105 529 "" "FMLE/3.0 (compatible; Lavf58.29" (4m 38s)
+127.0.0.1 [02/Mar/2020:16:01:02 +0800] PLAY "vod" "test-16.ts" "" - 465 502 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (5m 30s)
+127.0.0.1 [02/Mar/2020:16:01:30 +0800] PUBLISH "hls" "test" "" - 3500447 529 "" "FMLE/3.0 (compatible; Lavf58.29" (31s)
+127.0.0.1 [02/Mar/2020:16:26:27 +0800] PUBLISH "hls" "test" "" - 1562729 529 "" "FMLE/3.0 (compatible; Lavf58.29" (13s)
+127.0.0.1 [02/Mar/2020:16:28:05 +0800] PUBLISH "hls" "test" "" - 1049925 529 "" "FMLE/3.0 (compatible; Lavf58.29" (10s)
+127.0.0.1 - - [02/Mar/2020:16:29:10 +0800] "GET /vod.html?src=rtmp%3A%2F%2F127.0.0.1%2Flive%2Ftest2 HTTP/1.1" 200 3162 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 [02/Mar/2020:16:30:03 +0800] PUBLISH "hls" "test" "" - 404 529 "" "FMLE/3.0 (compatible; Lavf58.29" (7s)
+127.0.0.1 - - [02/Mar/2020:16:51:40 +0800] "GET /stat HTTP/1.1" 200 1167 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:51:40 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:52:30 +0800] "GET /stat HTTP/1.1" 200 1167 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:52:31 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:19 +0800] "GET /stat HTTP/1.1" 200 1496 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:19 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:20 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:23 +0800] "GET /stat HTTP/1.1" 200 1498 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:23 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:24 +0800] "GET /stat HTTP/1.1" 200 1498 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:24 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:26 +0800] "GET /stat HTTP/1.1" 200 1519 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:26 +0800] "GET /stat.xsl HTTP/1.1" 200 11765 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:16:53:27 +0800] PUBLISH "hls" "test" "" - 31246689 547 "" "FMLE/3.0 (compatible; Lavf58.29" (3m 28s)
+127.0.0.1 - - [02/Mar/2020:16:53:27 +0800] "GET /stat HTTP/1.1" 200 742 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [02/Mar/2020:16:53:27 +0800] "GET /stat.xsl HTTP/1.1" 304 0 "http://127.0.0.1/stat" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [02/Mar/2020:16:57:26 +0800] PUBLISH "hls" "test" "" - 404 529 "" "FMLE/3.0 (compatible; Lavf58.29" (7s)
+127.0.0.1 [02/Mar/2020:17:08:50 +0800] PUBLISH "hls" "test" "" - 1946296 529 "" "FMLE/3.0 (compatible; Lavf58.29" (17s)
+127.0.0.1 [02/Mar/2020:17:09:43 +0800] PUBLISH "hls" "test" "" - 404 529 "" "FMLE/3.0 (compatible; Lavf58.29" (7s)
+127.0.0.1 [02/Mar/2020:17:18:14 +0800] PUBLISH "hls" "test" "" - 1338015 529 "" "FMLE/3.0 (compatible; Lavf58.29" (34s)
+127.0.0.1 [02/Mar/2020:17:19:37 +0800] PUBLISH "hls" "test" "" - 2093336 529 "" "FMLE/3.0 (compatible; Lavf58.29" (1m 5s)
+127.0.0.1 [02/Mar/2020:17:20:05 +0800] PLAY "hls" "test" "" - 424 2422391 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (2m 4s)
+127.0.0.1 [02/Mar/2020:17:21:06 +0800] PUBLISH "live" "test" "" - 6197680 529 "" "FMLE/3.0 (compatible; Lavf58.29" (1m 5s)
+127.0.0.1 [02/Mar/2020:17:34:42 +0800] PLAY "live" "test" "" - 638 102807557 "http://127.0.0.1/index.html" "WIN 32,0,0,101" (14m 29s)
+127.0.0.1 [02/Mar/2020:17:35:05 +0800] PUBLISH "live" "test" "" - 102705587 409 "" "FMLE/3.0 (compatible; Lavf58.29" (13m 37s)
+127.0.0.1 - - [03/Mar/2020:09:29:27 +0800] "GET /history/history.css HTTP/1.1" 404 169 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:09:29:27 +0800] "GET /history/history.js HTTP/1.1" 404 169 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:09:29:27 +0800] "GET /Main.swf HTTP/1.1" 200 32768 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:09:29:27 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:09:29:32 +0800] "GET /Main.swf HTTP/1.1" 200 95979 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:09:30:00 +0800] PLAY "live" "test" "" - 416 436 "http://127.0.0.1/" "WIN 32,0,0,101" (6s)
+127.0.0.1 - - [03/Mar/2020:10:01:21 +0800] "GET /vedio5 HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:01:21 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:01:28 +0800] "GET /vedeo5 HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:01:34 +0800] "GET /video5 HTTP/1.1" 301 185 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:01:34 +0800] "GET /video5/ HTTP/1.1" 200 867 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:01:34 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:01:34 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:10:04:38 +0800] PLAY "live" "test" "" - 416 580130 "http://127.0.0.1/" "WIN 32,0,0,101" (12s)
+127.0.0.1 - - [03/Mar/2020:10:05:18 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:05:19 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:05:33 +0800] "GET /video5/ HTTP/1.1" 200 940 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:05:33 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:05:33 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:05:33 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:05:47 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:05:47 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:12:26 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:10:12:26 +0800] PLAY "live" "test" "" - 592 1795033 "http://127.0.0.1/video5/" "WIN 32,0,0,101" (6m 50s)
+127.0.0.1 - - [03/Mar/2020:10:16:22 +0800] "GET /vide7.5.5 HTTP/1.1" 301 185 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:16:22 +0800] "GET /vide7.5.5/ HTTP/1.1" 200 5058 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:10:16:22 +0800] PLAY "live" "test" "" - 505 27421140 "http://127.0.0.1/video5/" "WIN 32,0,0,101" (3m 52s)
+127.0.0.1 - - [03/Mar/2020:10:16:22 +0800] "GET /vide7.5.5/css/video-js.min.css HTTP/1.1" 200 39387 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:16:22 +0800] "GET /vide7.5.5/m.jpg HTTP/1.1" 200 31795 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:16:22 +0800] "GET /vide7.5.5/js/video.min.js HTTP/1.1" 200 502401 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:16:23 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:18:21 +0800] "GET /vide7.5.5/ HTTP/1.1" 200 5058 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:18:37 +0800] "GET /vide5 HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:18:37 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:18:44 +0800] "GET /vide05 HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:18:48 +0800] "GET /video5 HTTP/1.1" 301 185 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:18:48 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:18:48 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:19:08 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:19:09 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:19:09 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:19:09 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:05 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:06 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:06 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:06 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:06 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:16 +0800] "GET /video5/ HTTP/1.1" 200 940 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:16 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:16 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:16 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:17 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:21:55 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+127.0.0.1 - - [03/Mar/2020:10:21:55 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+127.0.0.1 - - [03/Mar/2020:10:21:56 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+127.0.0.1 - - [03/Mar/2020:10:21:57 +0800] "GET /video5/ HTTP/1.1" 200 940 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [03/Mar/2020:10:21:58 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [03/Mar/2020:10:21:58 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [03/Mar/2020:10:21:59 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+127.0.0.1 - - [03/Mar/2020:10:22:06 +0800] "GET /video5/ HTTP/1.1" 200 940 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+127.0.0.1 - - [03/Mar/2020:10:22:06 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+127.0.0.1 - - [03/Mar/2020:10:22:06 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+127.0.0.1 - - [03/Mar/2020:10:22:08 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+127.0.0.1 - - [03/Mar/2020:10:22:50 +0800] "GET /vide7.5.5/ HTTP/1.1" 200 5058 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:22:50 +0800] "GET /vide7.5.5/css/video-js.min.css HTTP/1.1" 200 39387 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:22:50 +0800] "GET /vide7.5.5/m.jpg HTTP/1.1" 200 31795 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:22:50 +0800] "GET /vide7.5.5/js/video.min.js HTTP/1.1" 200 502401 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:23:03 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:24:49 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:24:49 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:24:49 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:01 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:01 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:01 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:12 +0800] "GET /video5/ HTTP/1.1" 200 940 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:12 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:12 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:13 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:34 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:35 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:25:35 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:27:15 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:27:15 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:27:15 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:27:16 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:28:51 +0800] "GET /video5/ HTTP/1.1" 200 1172 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:10:28:51 +0800] PLAY "live" "test" "" - 471 10071969 "http://127.0.0.1/video5/" "WIN 32,0,0,101" (1m 31s)
+127.0.0.1 - - [03/Mar/2020:10:28:52 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:28:52 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:29:35 +0800] "GET /video5/ HTTP/1.1" 200 1193 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:29:35 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:29:35 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:29:49 +0800] "GET /video5/ HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:29:49 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:29:49 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:30:13 +0800] "GET /video5/ HTTP/1.1" 200 1173 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:30:13 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:30:13 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:31:02 +0800] "GET /video5/ HTTP/1.1" 200 1177 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:31:02 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:31:02 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:31:35 +0800] "GET /video5/ HTTP/1.1" 200 1924 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:10:31:35 +0800] PLAY "live" "test" "" - 460 4357831 "http://127.0.0.1/video5/" "WIN 32,0,0,101" (32s)
+127.0.0.1 - - [03/Mar/2020:10:31:35 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:31:35 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:32:34 +0800] "GET /video5/ HTTP/1.1" 200 1186 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:10:32:34 +0800] PLAY "live" "test" "" - 465 6353543 "http://127.0.0.1/video5/" "WIN 32,0,0,101" (58s)
+127.0.0.1 - - [03/Mar/2020:10:32:34 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:10:32:34 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:00:25 +0800] PUBLISH "live" "test" "" - 430844217 529 "" "FMLE/3.0 (compatible; Lavf58.29" (56m 2s)
+127.0.0.1 [03/Mar/2020:11:23:03 +0800] PUBLISH "live" "test" "" - 3280913 409 "" "FMLE/3.0 (compatible; Lavf58.29" (28s)
+127.0.0.1 [03/Mar/2020:11:24:08 +0800] PUBLISH "live" "test" "" - 3479030 409 "" "FMLE/3.0 (compatible; Lavf58.29" (23s)
+127.0.0.1 - - [03/Mar/2020:11:37:03 +0800] "GET /video5/ HTTP/1.1" 200 1310 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:37:03 +0800] PLAY "live" "test" "" - 1207 298609295 "http://127.0.0.1/video5/" "WIN 32,0,0,101" (1h 4m 28s)
+127.0.0.1 - - [03/Mar/2020:11:37:04 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:37:04 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:37:20 +0800] "GET /video5/ HTTP/1.1" 200 1310 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:37:20 +0800] PLAY "live" "test" "" - 448 1444384 "http://127.0.0.1/video5/" "WIN 32,0,0,101" (15s)
+127.0.0.1 - - [03/Mar/2020:11:37:20 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:37:20 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:37:21 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:40:28 +0800] "GET /video5/ HTTP/1.1" 200 1587 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:40:28 +0800] PLAY "live" "test" "" - 490 17890657 "http://127.0.0.1/video5/" "WIN 32,0,0,101" (3m 5s)
+127.0.0.1 - - [03/Mar/2020:11:40:29 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:40:29 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:40:29 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:40:35 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 1587 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:40:36 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:41:12 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 1617 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:41:12 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:41:12 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:41:12 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:45:55 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:45:55 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:45:57 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 1744 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:45:57 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:45:57 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:45:57 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:45:57 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:45:57 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:02 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:02 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:21 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 1727 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:21 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:21 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:21 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:21 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:25 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:46:26 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:48:53 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 1728 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:48:53 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:48:53 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:48:53 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:48:54 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:48:54 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:49:18 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 1755 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:49:19 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:49:19 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:49:19 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:49:19 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:50:08 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 1760 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:50:08 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:50:08 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:50:08 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:50:09 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:53:16 +0800] PUBLISH "live" "test" "" - 144381763 409 "" "FMLE/3.0 (compatible; Lavf58.29" (28m 50s)
+127.0.0.1 - - [03/Mar/2020:11:53:42 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 2451 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:53:42 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:53:42 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:53:42 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:53:42 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:53:42 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:54:12 +0800] PUBLISH "live" "test" "" - 2977334 409 "" "FMLE/3.0 (compatible; Lavf58.29" (24s)
+127.0.0.1 - - [03/Mar/2020:11:54:52 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:54:52 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:54:52 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:54:52 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:54:52 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:55:29 +0800] PUBLISH "live" "test" "" - 325 412 "" "FMLE/3.0 (compatible; Lavf58.29" (0s)
+127.0.0.1 [03/Mar/2020:11:56:22 +0800] PUBLISH "live" "test" "" - 9796976 409 "" "FMLE/3.0 (compatible; Lavf58.29" (1m 23s)
+127.0.0.1 - - [03/Mar/2020:11:56:33 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:56:33 +0800] PLAY "live" "test" "" - 532 9797234 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "WIN 32,0,0,101" (1m 35s)
+127.0.0.1 - - [03/Mar/2020:11:56:33 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:56:33 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:56:33 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:56:34 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:56:59 +0800] PUBLISH "live" "test" "" - 325 412 "" "FMLE/3.0 (compatible; Lavf58.29" (0s)
+127.0.0.1 [03/Mar/2020:11:57:25 +0800] PUBLISH "live" "test" "" - 325 412 "" "FMLE/3.0 (compatible; Lavf58.29" (0s)
+127.0.0.1 [03/Mar/2020:11:59:08 +0800] PUBLISH "live" "test" "" - 18881962 409 "" "FMLE/3.0 (compatible; Lavf58.29" (2m 28s)
+127.0.0.1 - - [03/Mar/2020:11:59:17 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:59:17 +0800] PLAY "live" "test" "" - 552 18882234 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "WIN 32,0,0,101" (2m 38s)
+127.0.0.1 - - [03/Mar/2020:11:59:17 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:59:17 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:59:17 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:11:59:17 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:11:59:34 +0800] PUBLISH "live" "test" "" - 622137 409 "" "FMLE/3.0 (compatible; Lavf58.29" (9s)
+127.0.0.1 [03/Mar/2020:11:59:51 +0800] PUBLISH "live" "test" "" - 1603468 409 "" "FMLE/3.0 (compatible; Lavf58.29" (15s)
+127.0.0.1 - - [03/Mar/2020:13:34:18 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:13:39:56 +0800] PUBLISH "live" "test" "" - 1172664695 409 "" "FMLE/3.0 (compatible; Lavf58.29" (1h 40m 2s)
+127.0.0.1 [03/Mar/2020:13:40:33 +0800] PLAY "live" "test" "" - 3128 1355311654 "http://127.0.0.1/" "WIN 32,0,0,101" (2h 17m 42s)
+127.0.0.1 [03/Mar/2020:13:42:06 +0800] PLAY "live" "test" "" - 2876 1174890808 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "WIN 32,0,0,101" (1h 42m 42s)
+127.0.0.1 [03/Mar/2020:13:42:06 +0800] PLAY "live" "test" "" - 416 436 "http://127.0.0.1/" "WIN 32,0,0,101" (1m 26s)
+127.0.0.1 - - [03/Mar/2020:13:42:20 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:42:50 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 3576 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:13:42:50 +0800] PLAY "live" "test" "" - 510 436 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "WIN 32,0,0,101" (13s)
+127.0.0.1 - - [03/Mar/2020:13:42:50 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:42:50 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:42:50 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:43:16 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 3586 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:43:16 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:43:16 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:43:16 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:13:43:35 +0800] PUBLISH "live" "test" "" - 1275377 409 "" "FMLE/3.0 (compatible; Lavf58.29" (10s)
+127.0.0.1 [03/Mar/2020:13:48:21 +0800] PUBLISH "live" "test" "" - 25671741 409 "" "FMLE/3.0 (compatible; Lavf58.29" (4m 40s)
+127.0.0.1 - - [03/Mar/2020:13:48:40 +0800] "GET /video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678 HTTP/1.1" 200 4428 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:13:48:40 +0800] PLAY "live" "test" "" - 567 26951857 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "WIN 32,0,0,101" (5m 16s)
+127.0.0.1 - - [03/Mar/2020:13:48:40 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:48:40 +0800] "GET /video5/js/video.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:48:40 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 304 0 "http://127.0.0.1/video5/?ip=118.123.136.147&chanel=1&username=admin&password=a12345678" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 [03/Mar/2020:13:48:58 +0800] PUBLISH "live" "test" "" - 902502 409 "" "FMLE/3.0 (compatible; Lavf58.29" (10s)
+127.0.0.1 [03/Mar/2020:13:49:17 +0800] PUBLISH "live" "test" "" - 896410 409 "" "FMLE/3.0 (compatible; Lavf58.29" (8s)
+127.0.0.1 [03/Mar/2020:13:49:41 +0800] PUBLISH "live" "test" "" - 1685732 409 "" "FMLE/3.0 (compatible; Lavf58.29" (15s)
+127.0.0.1 - - [03/Mar/2020:13:56:33 +0800] "GET /video5/ HTTP/1.1" 200 4428 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:56:33 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:56:47 +0800] "GET /vide7.5.5/ HTTP/1.1" 200 5058 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:56:47 +0800] "GET /vide7.5.5/css/video-js.min.css HTTP/1.1" 200 39387 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:56:47 +0800] "GET /vide7.5.5/m.jpg HTTP/1.1" 200 31795 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:56:47 +0800] "GET /vide7.5.5/js/video.min.js HTTP/1.1" 200 502401 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:56:48 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:58:50 +0800] "GET /vide7.5.5/ HTTP/1.1" 200 5058 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:58:50 +0800] "GET /vide7.5.5/css/video-js.min.css HTTP/1.1" 200 39387 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:58:50 +0800] "GET /vide7.5.5/m.jpg HTTP/1.1" 200 31795 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:58:50 +0800] "GET /vide7.5.5/js/video.min.js HTTP/1.1" 200 502401 "http://127.0.0.1/vide7.5.5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:13:58:50 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:02 +0800] "GET /video5/ HTTP/1.1" 200 4444 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:02 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:02 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:02 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:12 +0800] "GET /video5/ HTTP/1.1" 200 4444 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:13 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:13 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:13 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:13 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:20 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:20 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:47 +0800] "GET /video5/ HTTP/1.1" 200 4451 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:47 +0800] "GET /video5/css/video-js.min.css HTTP/1.1" 200 32615 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:47 +0800] "GET /video5/js/video.min.js HTTP/1.1" 200 226350 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:47 +0800] "GET /video5/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145 "http://127.0.0.1/video5/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:47 +0800] "GET /video5/js/video.min.js.map HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
+127.0.0.1 - - [03/Mar/2020:14:02:47 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0"
